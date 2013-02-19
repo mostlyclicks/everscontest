@@ -1,0 +1,45 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>First name:</b>
+  <%= @contestant.first_name %>
+</p>
+
+<p>
+  <b>Last name:</b>
+  <%= @contestant.last_name %>
+</p>
+
+<p>
+  <b>City:</b>
+  <%= @contestant.city %>
+</p>
+
+<p>
+  <b>Country:</b>
+  <%= @contestant.country %>
+</p>
+
+<p>
+  <b>State:</b>
+  <%= @contestant.state %>
+</p>
+
+<p>
+  <b>Phone:</b>
+  <%= @contestant.phone %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @contestant.email %>
+</p>
+
+<p>
+  <b>Confirm email:</b>
+  <%= @contestant.confirm_email %>
+</p>
+
+
+<%= link_to 'Edit', edit_contestant_path(@contestant) %> |
+<%= link_to 'Back', contestants_path %>

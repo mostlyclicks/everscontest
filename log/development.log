@@ -1,0 +1,101 @@
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-02-19 06:57:28 -0600
+Connecting to database specified by database.yml
+Served asset /rails.png - 304 Not Modified (8ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-02-19 07:02:38 -0600
+Served asset /rails.png - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/contestants" for 127.0.0.1 at 2013-02-19 07:07:37 -0600
+Processing by ContestantsController#index as HTML
+PG::Error: ERROR:  relation "contestants" does not exist
+LINE 5:              WHERE a.attrelid = '"contestants"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"contestants"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+Completed 500 Internal Server Error in 23ms
+
+ActiveRecord::StatementInvalid (PG::Error: ERROR:  relation "contestants" does not exist
+LINE 5:              WHERE a.attrelid = '"contestants"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"contestants"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+):
+  app/controllers/contestants_controller.rb:5:in `index'
+
+
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.6ms)
+Connecting to database specified by database.yml
+  [1m[36m (4.5ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (1.9ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateContestants (20130219130727)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (4.7ms)[0m  [1mCREATE TABLE "contestants" ("id" serial primary key, "first_name" character varying(255), "last_name" character varying(255), "city" character varying(255), "country" character varying(255), "state" character varying(255), "phone" character varying(255), "email" character varying(255), "confirm_email" character varying(255), "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (0.5ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130219130727')
+  [1m[36m (4.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+
+
+Started GET "/contestants" for 127.0.0.1 at 2013-02-19 07:07:55 -0600
+Processing by ContestantsController#index as HTML
+  [1m[36mContestant Load (2.1ms)[0m  [1mSELECT "contestants".* FROM "contestants" [0m
+  Rendered contestants/index.html.erb within layouts/application (2.6ms)
+Compiled contestants.css  (34ms)  (pid 22662)
+Compiled scaffolds.css  (17ms)  (pid 22662)
+Compiled bootstrap.css  (3900ms)  (pid 22662)
+Compiled application.css  (4112ms)  (pid 22662)
+Compiled jquery.js  (2ms)  (pid 22662)
+Compiled jquery_ujs.js  (0ms)  (pid 22662)
+Compiled contestants.js  (172ms)  (pid 22662)
+Compiled application.js  (278ms)  (pid 22662)
+Completed 200 OK in 4686ms (Views: 4656.8ms | ActiveRecord: 25.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-19 07:08:00 -0600
+Served asset /application.css - 200 OK (60ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-19 07:08:00 -0600
+Served asset /contestants.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-19 07:08:00 -0600
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-19 07:08:00 -0600
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-19 07:08:00 -0600
+Served asset /bootstrap.css - 200 OK (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-19 07:08:00 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-19 07:08:00 -0600
+Served asset /contestants.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-19 07:08:00 -0600
+Served asset /application.js - 304 Not Modified (10ms)
