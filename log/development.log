@@ -2001,3 +2001,78 @@ Served asset /application.js - 304 Not Modified (0ms)
 
 Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-19 08:41:16 -0600
 Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/contestants/3" for 127.0.0.1 at 2013-02-19 13:16:25 -0600
+Processing by ContestantsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mContestant Load (0.4ms)[0m  SELECT "contestants".* FROM "contestants" WHERE "contestants"."id" = $1 LIMIT 1  [["id", "3"]]
+  Rendered contestants/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 49ms (Views: 47.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-19 13:16:27 -0600
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-19 13:16:33 -0600
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-19 13:16:33 -0600
+Served asset /contestants.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-19 13:16:33 -0600
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-19 13:16:33 -0600
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-19 13:16:33 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-19 13:16:33 -0600
+Served asset /contestants.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-19 13:16:33 -0600
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-02-19 20:10:38 -0600
+Served asset /rails.png - 200 OK (32ms)
+
+
+Started GET "/contestants" for 127.0.0.1 at 2013-02-19 20:10:42 -0600
+Processing by ContestantsController#index as HTML
+  [1m[36mContestant Load (0.6ms)[0m  [1mSELECT "contestants".* FROM "contestants" [0m
+  Rendered contestants/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 82ms (Views: 79.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-19 20:10:42 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-19 20:10:42 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-19 20:10:42 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-19 20:10:42 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-19 20:10:42 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-19 20:10:42 -0600
+Served asset /application.css - 304 Not Modified (1ms)
