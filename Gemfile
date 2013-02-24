@@ -9,6 +9,7 @@ gem 'pg'
 gem "multi_json", "~> 1.6.1"
 gem 'simple_form'
 gem 'country_select'
+gem "galetahub-simple_captcha", :require => "simple_captcha"
 
 
 
