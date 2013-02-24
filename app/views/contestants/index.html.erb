@@ -1,5 +1,5 @@
 <h1>Listing contestants</h1>
-
+<%= @contestants.count %>
 <table>
   <tr>
     <th>First name</th>
@@ -9,11 +9,15 @@
     <th>State</th>
     <th>Phone</th>
     <th>Email</th>
-    <th>Confirm email</th>
+    <th>Gender</th>
+    <th>Age range</th>
+    <th>Newsletter</th>
+    <th>Rules</th>
     <th></th>
     <th></th>
     <th></th>
   </tr>
+
 
 <% @contestants.each do |contestant| %>
   <tr>
@@ -24,7 +28,10 @@
     <td><%= contestant.state %></td>
     <td><%= contestant.phone %></td>
     <td><%= contestant.email %></td>
-    
+    <td><%= contestant.gender %></td>
+    <td><%= contestant.age %></td>
+    <td><%= contestant.newsletter %></td>
+    <td><%= contestant.rules %></td>
     <td><%= link_to 'Show', contestant %></td>
     <td><%= link_to 'Edit', edit_contestant_path(contestant) %></td>
     <td><%= link_to 'Destroy', contestant, method: :delete, data: { confirm: 'Are you sure?' } %></td>
