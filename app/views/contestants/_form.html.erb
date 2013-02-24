@@ -10,6 +10,10 @@
       </ul>
     </div>
   <% end %>
+  <div class="control-group">
+    <label></label>
+
+  </div>
 
   
     
@@ -26,23 +30,9 @@
     <%= f.input :gender, collection: ['Male', 'Female'] %>
     <%= f.input :age, collection: age_ranges %>
     
-      <%#= f.input :newsletter, :as => :boolean, wrapper_html: {:class => "checkbox"}, :label => 'Hey' %>
-     
-      <%= f.input :newsletter, :as => :boolean, :item_wrapper_class => 'inline', :label => 'Inline checkboxes' %> 
-     
+    <%= f.input :newsletter, inline_label: 'Sign up for my newsletter', label: false %> 
+    <%= f.input :rules, inline_label: 'I have read & agree to the sweepstakes official rules', :hint => "<a href="">Click here to read the official rules</a>", label: false %>
     
-      <label class="checkbox">
-  <input type="checkbox" value="">
-  Option one is this and that—be sure to include why it's great
-</label>
-    
-      
-   
-  <label class="checkbox offset2">
-    <%= f.input :rules, :as => :boolean, :class => "checkbox", :hint => "I have read & agree to the sweepstakes official rules" %>
-  </label>
-
-
   
     <%= f.submit  "Submit", :class => "btn offset2 btn-primary" %>
 

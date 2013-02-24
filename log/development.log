@@ -5888,3 +5888,2604 @@ Served asset /scaffolds.css - 200 OK (1ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 11:35:39 -0600
 Served asset /application.js - 200 OK (10ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 13:39:02 -0600
+Connecting to database specified by database.yml
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (490.1ms)
+  Rendered contestants/new.html.erb within layouts/application (496.8ms)
+Compiled contestants.css  (70ms)  (pid 1766)
+Compiled scaffolds.css  (13ms)  (pid 1766)
+Compiled application.css  (542ms)  (pid 1766)
+Compiled contestants.js  (320ms)  (pid 1766)
+Compiled application.js  (386ms)  (pid 1766)
+Completed 200 OK in 2311ms (Views: 1906.4ms | ActiveRecord: 354.0ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 13:47:09 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (18.6ms)
+  Rendered contestants/new.html.erb within layouts/application (32.4ms)
+Completed 200 OK in 118ms (Views: 117.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 13:47:09 -0600
+Served asset /scaffolds.css - 304 Not Modified (37ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 13:47:09 -0600
+Served asset /bootstrap.css - 304 Not Modified (40ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 13:47:09 -0600
+Served asset /jquery.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 13:47:09 -0600
+Served asset /contestants.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 13:47:09 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 13:47:09 -0600
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 13:47:09 -0600
+Served asset /contestants.js - 304 Not Modified (21ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 13:47:09 -0600
+Served asset /application.js - 304 Not Modified (31ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 13:50:23 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (20.2ms)
+  Rendered contestants/new.html.erb within layouts/application (21.2ms)
+Completed 200 OK in 41ms (Views: 40.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 13:50:23 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 13:50:23 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 13:50:23 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 13:50:23 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 13:50:23 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 13:50:23 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 13:50:23 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 13:50:23 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 13:51:30 -0600
+Processing by ContestantsController#new as HTML
+ERROR: compiling _app_views_contestants__form_html_erb___903668509298604365_70119656596640 RAISED /Users/ceinterone17/rails_projects/everscontest/app/views/contestants/_form.html.erb:32: syntax error, unexpected ')', expecting tASSOC
+...as => :boolean, :inline_label );@output_buffer.safe_concat('
+...                               ^
+/Users/ceinterone17/rails_projects/everscontest/app/views/contestants/_form.html.erb:50: syntax error, unexpected keyword_end, expecting ')'
+'); end 
+       ^
+/Users/ceinterone17/rails_projects/everscontest/app/views/contestants/_form.html.erb:52: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/ceinterone17/rails_projects/everscontest/app/views/contestants/_form.html.erb:54: syntax error, unexpected keyword_end, expecting ')'
+Function body:           def _app_views_contestants__form_html_erb___903668509298604365_70119656596640(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "contestants/_form";_old_output_buffer = @output_buffer;form = local_assigns[:form];;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.append=  simple_form_for(@contestant, :html => {:class => 'form-horizontal' }) do |f| @output_buffer.safe_concat('
+');   if @contestant.errors.any? 
+@output_buffer.safe_concat('    <div id="error_explanation">
+      <h2>');@output_buffer.append= ( pluralize(@contestant.errors.count, "error") );@output_buffer.safe_concat(' prohibited this contestant from being saved:</h2>
+
+      <ul>
+');       @contestant.errors.full_messages.each do |msg| 
+@output_buffer.safe_concat('        <li>');@output_buffer.append= ( msg );@output_buffer.safe_concat('</li>
+');       end 
+@output_buffer.safe_concat('      </ul>
+    </div>
+');   end 
+@output_buffer.safe_concat('
+  
+    
+    ');@output_buffer.append= ( f.input :first_name );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('    ');@output_buffer.append= ( f.input :last_name );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('    ');@output_buffer.append= ( f.input :city );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('    ');@output_buffer.append= ( f.input :country, priority: [ "United States" ] );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('    ');@output_buffer.append= ( f.input :state, collection: us_states );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('    ');@output_buffer.append= ( f.input :phone );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('    ');@output_buffer.append= ( f.input :email );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('    ');@output_buffer.append= ( f.input :email_confirmation );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('
+    
+    ');@output_buffer.append= ( f.input :gender, collection: ['Male', 'Female'] );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('    ');@output_buffer.append= ( f.input :age, collection: age_ranges );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('    
+');
+@output_buffer.safe_concat('     
+');
+@output_buffer.safe_concat('      ');@output_buffer.append= ( f.input :newsletter, :as => :boolean, :inline_label );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('     
+    
+      <label class="checkbox">
+  <input type="checkbox" value="">
+  Option one is this and that—be sure to include why it\'s great
+</label>
+    
+      
+   
+  <label class="checkbox offset2">
+    ');@output_buffer.append= ( f.input :rules, :as => :boolean, :class => "checkbox", :hint => "I have read & agree to the sweepstakes official rules" );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('  </label>
+
+
+  
+    ');@output_buffer.append= ( f.submit  "Submit", :class => "btn offset2 btn-primary" );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('
+'); end 
+@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_view/template.rb:297:in `module_eval'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_view/template.rb:297:in `compile'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_view/template.rb:244:in `block in compile!'
+<internal:prelude>:10:in `synchronize'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_view/template.rb:232:in `compile!'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_view/template.rb:144:in `block in render'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activesupport-3.2.12/lib/active_support/notifications.rb:125:in `instrument'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_view/template.rb:143:in `render'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_view/renderer/partial_renderer.rb:265:in `render_partial'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_view/renderer/partial_renderer.rb:238:in `block in render'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activesupport-3.2.12/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activesupport-3.2.12/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activesupport-3.2.12/lib/active_support/notifications.rb:123:in `instrument'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_view/renderer/partial_renderer.rb:237:in `render'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_view/renderer/renderer.rb:41:in `render_partial'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_view/helpers/rendering_helper.rb:27:in `render'
+/Users/ceinterone17/rails_projects/everscontest/app/views/contestants/new.html.erb:3:in `_app_views_contestants_new_html_erb___709068354497523261_70119641076760'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_view/template.rb:145:in `block in render'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activesupport-3.2.12/lib/active_support/notifications.rb:125:in `instrument'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_view/template.rb:143:in `render'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activesupport-3.2.12/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activesupport-3.2.12/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activesupport-3.2.12/lib/active_support/notifications.rb:123:in `instrument'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_view/renderer/renderer.rb:17:in `render'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/abstract_controller/rendering.rb:88:in `render'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activesupport-3.2.12/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/ceinterone17/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activesupport-3.2.12/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activerecord-3.2.12/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_controller/metal/mime_responds.rb:196:in `respond_to'
+/Users/ceinterone17/rails_projects/everscontest/app/controllers/contestants_controller.rb:29:in `new'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/abstract_controller/base.rb:167:in `process_action'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:414:in `_run__3426859749216925088__process_action__2323758426946216147__callbacks'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activesupport-3.2.12/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activesupport-3.2.12/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activesupport-3.2.12/lib/active_support/notifications.rb:123:in `instrument'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activerecord-3.2.12/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/abstract_controller/base.rb:121:in `process'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/abstract_controller/rendering.rb:45:in `process'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_controller/metal.rb:203:in `dispatch'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_controller/metal.rb:246:in `block in action'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:601:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/rack-1.4.5/lib/rack/etag.rb:23:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/rack-1.4.5/lib/rack/conditionalget.rb:25:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:210:in `context'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:205:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/cookies.rb:341:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activerecord-3.2.12/lib/active_record/query_cache.rb:64:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activerecord-3.2.12/lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `_run__2316873872866231363__call__367811193171847170__callbacks'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/railties-3.2.12/lib/rails/rack/logger.rb:32:in `call_app'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/railties-3.2.12/lib/rails/rack/logger.rb:16:in `block in call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activesupport-3.2.12/lib/active_support/tagged_logging.rb:22:in `tagged'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/railties-3.2.12/lib/rails/rack/logger.rb:16:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/rack-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/rack-1.4.5/lib/rack/runtime.rb:17:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activesupport-3.2.12/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/rack-1.4.5/lib/rack/lock.rb:15:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/static.rb:62:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/railties-3.2.12/lib/rails/engine.rb:479:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/railties-3.2.12/lib/rails/application.rb:223:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/rack-1.4.5/lib/rack/content_length.rb:14:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/railties-3.2.12/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/rack-1.4.5/lib/rack/handler/webrick.rb:59:in `service'
+/Users/ceinterone17/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/Users/ceinterone17/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/Users/ceinterone17/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+  Rendered contestants/_form.html.erb (789.0ms)
+  Rendered contestants/new.html.erb within layouts/application (826.4ms)
+Completed 500 Internal Server Error in 909ms
+
+ActionView::Template::Error (/Users/ceinterone17/rails_projects/everscontest/app/views/contestants/_form.html.erb:32: syntax error, unexpected ')', expecting tASSOC
+...as => :boolean, :inline_label );@output_buffer.safe_concat('
+...                               ^
+/Users/ceinterone17/rails_projects/everscontest/app/views/contestants/_form.html.erb:50: syntax error, unexpected keyword_end, expecting ')'
+'); end 
+       ^
+/Users/ceinterone17/rails_projects/everscontest/app/views/contestants/_form.html.erb:52: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/ceinterone17/rails_projects/everscontest/app/views/contestants/_form.html.erb:54: syntax error, unexpected keyword_end, expecting ')'):
+    29:       <%#= f.input :newsletter, :as => :boolean, wrapper_html: {:class => "checkbox"}, :label => 'Hey' %>
+    30:      
+    31:       <%#= f.input :newsletter, :as => :boolean, :item_wrapper_class => 'inline', :label => 'Inline checkboxes' %> 
+    32:       <%= f.input :newsletter, :as => :boolean, :inline_label %>
+    33:      
+    34:     
+    35:       <label class="checkbox">
+  app/views/contestants/new.html.erb:3:in `_app_views_contestants_new_html_erb___709068354497523261_70119641076760'
+  app/controllers/contestants_controller.rb:29:in `new'
+
+
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (150.7ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 13:51:52 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (21.6ms)
+  Rendered contestants/new.html.erb within layouts/application (22.6ms)
+Completed 200 OK in 31ms (Views: 30.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 13:51:52 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 13:51:52 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 13:51:52 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 13:51:52 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 13:51:52 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 13:51:52 -0600
+Served asset /bootstrap.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 13:51:52 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 13:51:52 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 13:52:28 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (59.6ms)
+  Rendered contestants/new.html.erb within layouts/application (60.6ms)
+Completed 200 OK in 69ms (Views: 69.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 13:52:28 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 13:52:28 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 13:52:28 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 13:52:28 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 13:52:28 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 13:52:28 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 13:52:28 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 13:52:28 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 13:52:31 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (43.1ms)
+  Rendered contestants/new.html.erb within layouts/application (46.4ms)
+Completed 200 OK in 56ms (Views: 55.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 13:52:31 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 13:52:31 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 13:52:31 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 13:52:31 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 13:52:31 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 13:52:32 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 13:52:32 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 13:52:32 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 13:55:24 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (57.2ms)
+  Rendered contestants/new.html.erb within layouts/application (80.6ms)
+Completed 200 OK in 131ms (Views: 130.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 13:55:25 -0600
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 13:55:25 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 13:55:25 -0600
+Served asset /bootstrap.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 13:55:26 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 13:55:26 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 13:55:27 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 13:55:28 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 13:55:29 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 13:55:54 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (20.9ms)
+  Rendered contestants/new.html.erb within layouts/application (22.5ms)
+Completed 200 OK in 44ms (Views: 43.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 13:55:54 -0600
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 13:55:54 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 13:55:54 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 13:55:54 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 13:55:55 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 13:55:55 -0600
+Served asset /bootstrap.css - 304 Not Modified (21ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 13:55:55 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 13:55:55 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 13:57:32 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (22.7ms)
+  Rendered contestants/new.html.erb within layouts/application (23.7ms)
+Completed 200 OK in 33ms (Views: 32.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 13:57:32 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 13:57:32 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 13:57:32 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 13:57:32 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 13:57:32 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 13:57:32 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 13:57:32 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 13:57:32 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 13:58:23 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (55.0ms)
+  Rendered contestants/new.html.erb within layouts/application (55.9ms)
+Completed 200 OK in 65ms (Views: 64.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 13:58:23 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 13:58:23 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 13:58:23 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 13:58:23 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 13:58:23 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 13:58:23 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 13:58:23 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 13:58:23 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 13:58:53 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (23.5ms)
+  Rendered contestants/new.html.erb within layouts/application (24.4ms)
+Completed 200 OK in 33ms (Views: 32.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 13:58:53 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 13:58:53 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 13:58:53 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 13:58:53 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 13:58:53 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 13:58:53 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 13:58:53 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 13:58:53 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 13:59:12 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (42.0ms)
+  Rendered contestants/new.html.erb within layouts/application (42.9ms)
+Completed 200 OK in 51ms (Views: 51.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 13:59:12 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 13:59:12 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 13:59:12 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 13:59:12 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 13:59:12 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 13:59:12 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 13:59:13 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 13:59:13 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 13:59:46 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (48.4ms)
+  Rendered contestants/new.html.erb within layouts/application (49.1ms)
+Completed 500 Internal Server Error in 51ms
+
+ActionView::Template::Error (undefined local variable or method `inline' for #<#<Class:0x007f8c025e3fe0>:0x007f8c0212d8c0>):
+    29:       <%#= f.input :newsletter, :as => :boolean, wrapper_html: {:class => "checkbox"}, :label => 'Hey' %>
+    30:      
+    31:       <%#= f.input :newsletter, :as => :boolean, :item_wrapper_class => 'inline', :label => 'Inline checkboxes' %> 
+    32:       <%= f.input :newsletter, :as => :boolean, inline_label: 'Newsletter', label: inline %>
+    33:      
+    34:     
+    35:       <label class="checkbox">
+  app/views/contestants/_form.html.erb:32:in `block in _app_views_contestants__form_html_erb___903668509298604365_70119653434020'
+  app/views/contestants/_form.html.erb:1:in `_app_views_contestants__form_html_erb___903668509298604365_70119653434020'
+  app/views/contestants/new.html.erb:3:in `_app_views_contestants_new_html_erb___709068354497523261_70119641076760'
+  app/controllers/contestants_controller.rb:29:in `new'
+
+
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.2ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 13:59:55 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (19.0ms)
+  Rendered contestants/new.html.erb within layouts/application (20.1ms)
+Completed 200 OK in 64ms (Views: 63.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 13:59:55 -0600
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 13:59:55 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 13:59:55 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 13:59:55 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 13:59:55 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 13:59:55 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 13:59:55 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 13:59:55 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 14:00:23 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (44.1ms)
+  Rendered contestants/new.html.erb within layouts/application (44.9ms)
+Completed 200 OK in 53ms (Views: 52.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 14:00:23 -0600
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 14:00:23 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 14:00:23 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 14:00:23 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 14:00:23 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 14:00:23 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 14:00:23 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 14:00:23 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 14:01:03 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (30.2ms)
+  Rendered contestants/new.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 58ms (Views: 58.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 14:01:03 -0600
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 14:01:03 -0600
+Served asset /contestants.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 14:01:03 -0600
+Served asset /bootstrap.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 14:01:03 -0600
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 14:01:03 -0600
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 14:01:04 -0600
+Served asset /contestants.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 14:01:04 -0600
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 14:01:04 -0600
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 14:01:05 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (24.4ms)
+  Rendered contestants/new.html.erb within layouts/application (25.2ms)
+Completed 200 OK in 33ms (Views: 32.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 14:01:05 -0600
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 14:01:05 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 14:01:05 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 14:01:05 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 14:01:05 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 14:01:05 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 14:01:05 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 14:01:05 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 14:02:18 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (42.4ms)
+  Rendered contestants/new.html.erb within layouts/application (43.3ms)
+Completed 200 OK in 52ms (Views: 51.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 14:02:18 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 14:02:18 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 14:02:18 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 14:02:18 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 14:02:18 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 14:02:18 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 14:02:18 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 14:02:18 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 14:02:35 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (45.6ms)
+  Rendered contestants/new.html.erb within layouts/application (46.5ms)
+Completed 200 OK in 55ms (Views: 54.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 14:02:35 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 14:02:36 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 14:02:36 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 14:02:36 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 14:02:36 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 14:02:36 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 14:02:36 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 14:02:36 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 14:03:24 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (18.1ms)
+  Rendered contestants/new.html.erb within layouts/application (18.9ms)
+Completed 200 OK in 26ms (Views: 25.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 14:03:24 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 14:03:24 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 14:03:24 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 14:03:24 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 14:03:24 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 14:03:24 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 14:03:24 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 14:03:24 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 14:03:28 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (43.0ms)
+  Rendered contestants/new.html.erb within layouts/application (43.8ms)
+Completed 200 OK in 52ms (Views: 51.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 14:03:28 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 14:03:28 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 14:03:28 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 14:03:28 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 14:03:28 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 14:03:28 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 14:03:28 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 14:03:28 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 15:58:38 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (2.0ms)
+  Rendered contestants/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 38ms (Views: 37.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 15:58:38 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 15:58:38 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 15:58:38 -0600
+Served asset /bootstrap.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 15:58:38 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 15:58:38 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 15:58:38 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 15:58:38 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 15:58:38 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 16:15:42 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (51.5ms)
+  Rendered contestants/new.html.erb within layouts/application (52.4ms)
+Completed 200 OK in 61ms (Views: 60.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 16:15:42 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 16:15:42 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 16:15:42 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 16:15:42 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 16:15:42 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 16:15:42 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 16:15:42 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 16:15:42 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 16:15:58 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (20.9ms)
+  Rendered contestants/new.html.erb within layouts/application (21.8ms)
+Completed 200 OK in 50ms (Views: 49.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 16:15:58 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 16:15:58 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 16:15:58 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 16:15:58 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 16:15:58 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 16:15:58 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 16:15:58 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 16:15:58 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 16:16:24 -0600
+Processing by ContestantsController#new as HTML
+ERROR: compiling _app_views_contestants__form_html_erb___903668509298604365_70119656165660 RAISED /Users/ceinterone17/rails_projects/everscontest/app/views/contestants/_form.html.erb:33: syntax error, unexpected ':', expecting tASSOC
+...e_label: 'Newsletter', :label :false );@output_buffer.safe_c...
+...                               ^
+Function body:           def _app_views_contestants__form_html_erb___903668509298604365_70119656165660(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "contestants/_form";_old_output_buffer = @output_buffer;form = local_assigns[:form];;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.append=  simple_form_for(@contestant, :html => {:class => 'form-horizontal' }) do |f| @output_buffer.safe_concat('
+');   if @contestant.errors.any? 
+@output_buffer.safe_concat('    <div id="error_explanation">
+      <h2>');@output_buffer.append= ( pluralize(@contestant.errors.count, "error") );@output_buffer.safe_concat(' prohibited this contestant from being saved:</h2>
+
+      <ul>
+');       @contestant.errors.full_messages.each do |msg| 
+@output_buffer.safe_concat('        <li>');@output_buffer.append= ( msg );@output_buffer.safe_concat('</li>
+');       end 
+@output_buffer.safe_concat('      </ul>
+    </div>
+');   end 
+@output_buffer.safe_concat('  <div class="control-group">
+    <label></label>
+
+  </div>
+
+  
+    
+    ');@output_buffer.append= ( f.input :first_name );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('    ');@output_buffer.append= ( f.input :last_name );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('    ');@output_buffer.append= ( f.input :city );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('    ');@output_buffer.append= ( f.input :country, priority: [ "United States" ] );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('    ');@output_buffer.append= ( f.input :state, collection: us_states );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('    ');@output_buffer.append= ( f.input :phone );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('    ');@output_buffer.append= ( f.input :email );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('    ');@output_buffer.append= ( f.input :email_confirmation );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('
+    
+    ');@output_buffer.append= ( f.input :gender, collection: ['Male', 'Female'] );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('    ');@output_buffer.append= ( f.input :age, collection: age_ranges );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('    
+    ');@output_buffer.append= ( f.input :newsletter, as: :boolean, inline_label: 'Newsletter', :label :false );@output_buffer.safe_concat('
+');
+@output_buffer.safe_concat('     
+');
+
+
+@output_buffer.safe_concat('     
+    
+     
+    
+      
+   
+  <!-- label class="checkbox offset2">
+');
+@output_buffer.safe_concat('  </label>
+
+-->
+  
+    ');@output_buffer.append= ( f.submit  "Submit", :class => "btn offset2 btn-primary" );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('
+'); end 
+@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_view/template.rb:297:in `module_eval'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_view/template.rb:297:in `compile'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_view/template.rb:244:in `block in compile!'
+<internal:prelude>:10:in `synchronize'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_view/template.rb:232:in `compile!'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_view/template.rb:144:in `block in render'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activesupport-3.2.12/lib/active_support/notifications.rb:125:in `instrument'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_view/template.rb:143:in `render'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_view/renderer/partial_renderer.rb:265:in `render_partial'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_view/renderer/partial_renderer.rb:238:in `block in render'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activesupport-3.2.12/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activesupport-3.2.12/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activesupport-3.2.12/lib/active_support/notifications.rb:123:in `instrument'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_view/renderer/partial_renderer.rb:237:in `render'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_view/renderer/renderer.rb:41:in `render_partial'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_view/helpers/rendering_helper.rb:27:in `render'
+/Users/ceinterone17/rails_projects/everscontest/app/views/contestants/new.html.erb:3:in `_app_views_contestants_new_html_erb___709068354497523261_70119641076760'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_view/template.rb:145:in `block in render'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activesupport-3.2.12/lib/active_support/notifications.rb:125:in `instrument'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_view/template.rb:143:in `render'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activesupport-3.2.12/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activesupport-3.2.12/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activesupport-3.2.12/lib/active_support/notifications.rb:123:in `instrument'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_view/renderer/renderer.rb:17:in `render'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/abstract_controller/rendering.rb:88:in `render'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activesupport-3.2.12/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/ceinterone17/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activesupport-3.2.12/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activerecord-3.2.12/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_controller/metal/mime_responds.rb:196:in `respond_to'
+/Users/ceinterone17/rails_projects/everscontest/app/controllers/contestants_controller.rb:29:in `new'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/abstract_controller/base.rb:167:in `process_action'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:414:in `_run__3426859749216925088__process_action__2323758426946216147__callbacks'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activesupport-3.2.12/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activesupport-3.2.12/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activesupport-3.2.12/lib/active_support/notifications.rb:123:in `instrument'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activerecord-3.2.12/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/abstract_controller/base.rb:121:in `process'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/abstract_controller/rendering.rb:45:in `process'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_controller/metal.rb:203:in `dispatch'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_controller/metal.rb:246:in `block in action'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:601:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/rack-1.4.5/lib/rack/etag.rb:23:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/rack-1.4.5/lib/rack/conditionalget.rb:25:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:210:in `context'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:205:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/cookies.rb:341:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activerecord-3.2.12/lib/active_record/query_cache.rb:64:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activerecord-3.2.12/lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `_run__2316873872866231363__call__367811193171847170__callbacks'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/railties-3.2.12/lib/rails/rack/logger.rb:32:in `call_app'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/railties-3.2.12/lib/rails/rack/logger.rb:16:in `block in call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activesupport-3.2.12/lib/active_support/tagged_logging.rb:22:in `tagged'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/railties-3.2.12/lib/rails/rack/logger.rb:16:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/rack-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/rack-1.4.5/lib/rack/runtime.rb:17:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/activesupport-3.2.12/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/rack-1.4.5/lib/rack/lock.rb:15:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/static.rb:62:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/railties-3.2.12/lib/rails/engine.rb:479:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/railties-3.2.12/lib/rails/application.rb:223:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/rack-1.4.5/lib/rack/content_length.rb:14:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/railties-3.2.12/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/rack-1.4.5/lib/rack/handler/webrick.rb:59:in `service'
+/Users/ceinterone17/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/Users/ceinterone17/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/Users/ceinterone17/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+  Rendered contestants/_form.html.erb (1.7ms)
+  Rendered contestants/new.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (/Users/ceinterone17/rails_projects/everscontest/app/views/contestants/_form.html.erb:33: syntax error, unexpected ':', expecting tASSOC
+...e_label: 'Newsletter', :label :false );@output_buffer.safe_c...
+...                               ^):
+    30:     <%= f.input :gender, collection: ['Male', 'Female'] %>
+    31:     <%= f.input :age, collection: age_ranges %>
+    32:     
+    33:     <%= f.input :newsletter, as: :boolean, inline_label: 'Newsletter', :label :false %>
+    34:     <%#= f.input :newsletter, :as => :boolean, wrapper_html: {:class => "checkbox"}, :label => 'Hey' %>
+    35:      
+    36:       <%#= f.input :newsletter, :as => :boolean, :item_wrapper_class => 'inline', :label => 'Inline checkboxes' %> 
+  app/views/contestants/new.html.erb:3:in `_app_views_contestants_new_html_erb___709068354497523261_70119641076760'
+  app/controllers/contestants_controller.rb:29:in `new'
+
+
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.2ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 16:16:37 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (43.8ms)
+  Rendered contestants/new.html.erb within layouts/application (44.8ms)
+Completed 200 OK in 54ms (Views: 53.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 16:16:37 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 16:16:37 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 16:16:37 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 16:16:37 -0600
+Served asset /bootstrap.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 16:16:37 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 16:16:37 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 16:16:37 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 16:16:37 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 16:16:49 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (18.6ms)
+  Rendered contestants/new.html.erb within layouts/application (19.6ms)
+Completed 200 OK in 59ms (Views: 58.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 16:16:49 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 16:16:49 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 16:16:49 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 16:16:49 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 16:16:49 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 16:16:49 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 16:16:49 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 16:16:49 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 16:16:51 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (40.8ms)
+  Rendered contestants/new.html.erb within layouts/application (41.6ms)
+Completed 200 OK in 50ms (Views: 49.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 16:16:51 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 16:16:51 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 16:16:51 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 16:16:51 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 16:16:51 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 16:16:51 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 16:16:51 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 16:16:51 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 16:17:05 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (22.9ms)
+  Rendered contestants/new.html.erb within layouts/application (23.9ms)
+Completed 200 OK in 54ms (Views: 53.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 16:17:05 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 16:17:05 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 16:17:05 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 16:17:05 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 16:17:05 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 16:17:05 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 16:17:05 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 16:17:05 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 16:17:22 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (53.2ms)
+  Rendered contestants/new.html.erb within layouts/application (54.2ms)
+Completed 200 OK in 62ms (Views: 61.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 16:17:22 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 16:17:22 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 16:17:22 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 16:17:22 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 16:17:22 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 16:17:22 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 16:17:22 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 16:17:22 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 16:17:29 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (21.1ms)
+  Rendered contestants/new.html.erb within layouts/application (23.1ms)
+Completed 200 OK in 51ms (Views: 50.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 16:17:29 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 16:17:29 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 16:17:29 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 16:17:29 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 16:17:29 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 16:17:29 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 16:17:29 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 16:17:29 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 16:17:58 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (21.0ms)
+  Rendered contestants/new.html.erb within layouts/application (22.2ms)
+Completed 200 OK in 31ms (Views: 30.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 16:17:58 -0600
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 16:17:58 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 16:17:58 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 16:17:58 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 16:17:58 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 16:17:58 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 16:17:58 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 16:17:58 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 16:19:29 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (62.6ms)
+  Rendered contestants/new.html.erb within layouts/application (63.6ms)
+Completed 200 OK in 72ms (Views: 71.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 16:19:29 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 16:19:29 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 16:19:29 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 16:19:29 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 16:19:29 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 16:19:29 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 16:19:29 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 16:19:29 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 16:20:16 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (21.9ms)
+  Rendered contestants/new.html.erb within layouts/application (22.7ms)
+Completed 200 OK in 31ms (Views: 30.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 16:20:16 -0600
+Served asset /application.css - 304 Not Modified (21ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 16:20:16 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 16:20:16 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 16:20:16 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 16:20:16 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 16:20:16 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 16:20:16 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 16:20:17 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 16:20:29 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (24.7ms)
+  Rendered contestants/new.html.erb within layouts/application (25.6ms)
+Completed 200 OK in 34ms (Views: 33.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 16:20:30 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 16:20:30 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 16:20:30 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 16:20:30 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 16:20:30 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 16:20:30 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 16:20:30 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 16:20:31 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 16:20:39 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (26.3ms)
+  Rendered contestants/new.html.erb within layouts/application (30.4ms)
+Completed 200 OK in 40ms (Views: 39.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 16:20:40 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 16:20:40 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 16:20:40 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 16:20:40 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 16:20:40 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 16:20:40 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 16:20:40 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 16:20:40 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 16:21:01 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (21.6ms)
+  Rendered contestants/new.html.erb within layouts/application (22.5ms)
+Completed 200 OK in 31ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 16:21:01 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 16:21:01 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 16:21:01 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 16:21:01 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 16:21:01 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 16:21:01 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 16:21:01 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 16:21:01 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 16:26:24 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (22.1ms)
+  Rendered contestants/new.html.erb within layouts/application (23.1ms)
+Completed 200 OK in 32ms (Views: 31.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 16:26:24 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 16:26:24 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 16:26:24 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 16:26:24 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 16:26:24 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 16:26:24 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 16:26:24 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 16:26:24 -0600
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 16:26:28 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (45.8ms)
+  Rendered contestants/new.html.erb within layouts/application (46.7ms)
+Completed 200 OK in 55ms (Views: 54.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 16:26:28 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 16:26:28 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 16:26:28 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 16:26:28 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 16:26:28 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 16:26:28 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 16:26:28 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 16:26:28 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 16:28:22 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (24.3ms)
+  Rendered contestants/new.html.erb within layouts/application (25.2ms)
+Completed 200 OK in 34ms (Views: 33.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 16:28:22 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 16:28:22 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 16:28:22 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 16:28:22 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 16:28:23 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 16:28:23 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 16:28:23 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 16:28:23 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 16:28:26 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (43.7ms)
+  Rendered contestants/new.html.erb within layouts/application (44.5ms)
+Completed 200 OK in 53ms (Views: 52.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 16:28:26 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 16:28:26 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 16:28:26 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 16:28:26 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 16:28:26 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 16:28:26 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 16:28:26 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 16:28:26 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 16:29:49 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (51.9ms)
+  Rendered contestants/new.html.erb within layouts/application (52.8ms)
+Completed 200 OK in 61ms (Views: 60.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 16:29:49 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 16:29:49 -0600
+Served asset /bootstrap.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 16:29:49 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 16:29:49 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 16:29:49 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 16:29:49 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 16:29:49 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 16:29:49 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 16:30:04 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (55.5ms)
+  Rendered contestants/new.html.erb within layouts/application (56.5ms)
+Completed 200 OK in 64ms (Views: 63.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 16:30:04 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 16:30:04 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 16:30:04 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 16:30:04 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 16:30:04 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 16:30:04 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 16:30:04 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 16:30:04 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 16:30:06 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (42.1ms)
+  Rendered contestants/new.html.erb within layouts/application (43.0ms)
+Completed 200 OK in 51ms (Views: 50.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 16:30:06 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 16:30:06 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 16:30:06 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 16:30:06 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 16:30:06 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 16:30:06 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 16:30:06 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 16:30:06 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 16:30:35 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (22.4ms)
+  Rendered contestants/new.html.erb within layouts/application (23.3ms)
+Completed 200 OK in 54ms (Views: 53.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 16:30:35 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 16:30:35 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 16:30:35 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 16:30:35 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 16:30:35 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 16:30:35 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 16:30:35 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 16:30:35 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 16:30:37 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (52.7ms)
+  Rendered contestants/new.html.erb within layouts/application (53.6ms)
+Completed 200 OK in 62ms (Views: 61.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 16:30:37 -0600
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 16:30:37 -0600
+Served asset /bootstrap.css - 200 OK (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 16:30:37 -0600
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 16:30:37 -0600
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 16:30:37 -0600
+Served asset /contestants.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 16:30:37 -0600
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 16:30:37 -0600
+Served asset /contestants.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 16:30:37 -0600
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 16:31:13 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (26.9ms)
+  Rendered contestants/new.html.erb within layouts/application (27.8ms)
+Completed 200 OK in 54ms (Views: 54.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 16:31:13 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 16:31:13 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 16:31:13 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 16:31:13 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 16:31:13 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 16:31:13 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 16:31:13 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 16:31:13 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 16:33:33 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (23.3ms)
+  Rendered contestants/new.html.erb within layouts/application (24.3ms)
+Completed 200 OK in 33ms (Views: 32.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 16:33:33 -0600
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 16:33:33 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 16:33:33 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 16:33:33 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 16:33:33 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 16:33:33 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 16:33:33 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 16:33:33 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 16:33:35 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (56.2ms)
+  Rendered contestants/new.html.erb within layouts/application (57.1ms)
+Completed 200 OK in 67ms (Views: 66.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 16:33:35 -0600
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 16:33:35 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 16:33:35 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 16:33:35 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 16:33:35 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 16:33:35 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 16:33:35 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 16:33:35 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 16:34:24 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (42.9ms)
+  Rendered contestants/new.html.erb within layouts/application (43.7ms)
+Completed 200 OK in 52ms (Views: 51.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 16:34:24 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 16:34:24 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 16:34:24 -0600
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 16:34:24 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 16:34:24 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 16:34:24 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 16:34:24 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 16:34:24 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 16:34:37 -0600
+Connecting to database specified by database.yml
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (233.7ms)
+  Rendered contestants/new.html.erb within layouts/application (262.6ms)
+Completed 200 OK in 537ms (Views: 437.0ms | ActiveRecord: 48.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 16:34:39 -0600
+Served asset /application.css - 304 Not Modified (42ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 16:34:39 -0600
+Served asset /contestants.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 16:34:39 -0600
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 16:34:39 -0600
+Served asset /bootstrap.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 16:34:39 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 16:34:39 -0600
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 16:34:39 -0600
+Served asset /contestants.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 16:34:39 -0600
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 16:35:02 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (21.2ms)
+  Rendered contestants/new.html.erb within layouts/application (22.1ms)
+Completed 200 OK in 31ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 16:35:02 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 16:35:02 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 16:35:02 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 16:35:02 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 16:35:02 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 16:35:02 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 16:35:02 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 16:35:02 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 16:35:42 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (23.6ms)
+  Rendered contestants/new.html.erb within layouts/application (24.5ms)
+Completed 200 OK in 35ms (Views: 34.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 16:35:42 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 16:35:42 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 16:35:42 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 16:35:42 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 16:35:42 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 16:35:42 -0600
+Served asset /application.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 16:35:42 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 16:35:42 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 16:36:32 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (55.1ms)
+  Rendered contestants/new.html.erb within layouts/application (56.0ms)
+Completed 200 OK in 64ms (Views: 63.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 16:36:32 -0600
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 16:36:32 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 16:36:32 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 16:36:32 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 16:36:32 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 16:36:32 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 16:36:32 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 16:36:33 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 16:40:30 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (44.2ms)
+  Rendered contestants/new.html.erb within layouts/application (45.1ms)
+Completed 200 OK in 54ms (Views: 53.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 16:40:30 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 16:40:30 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 16:40:30 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 16:40:30 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 16:40:30 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 16:40:30 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 16:40:30 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 16:40:30 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 16:40:45 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (23.8ms)
+  Rendered contestants/new.html.erb within layouts/application (24.9ms)
+Completed 200 OK in 54ms (Views: 53.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 16:40:45 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 16:40:45 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 16:40:45 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 16:40:45 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 16:40:45 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 16:40:45 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 16:40:45 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 16:40:45 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-24 16:42:05 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (50.8ms)
+  Rendered contestants/new.html.erb within layouts/application (51.7ms)
+Completed 200 OK in 59ms (Views: 58.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-24 16:42:05 -0600
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-24 16:42:05 -0600
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-24 16:42:05 -0600
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-24 16:42:05 -0600
+Served asset /contestants.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-24 16:42:05 -0600
+Served asset /bootstrap.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-24 16:42:05 -0600
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-24 16:42:05 -0600
+Served asset /contestants.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-24 16:42:05 -0600
+Served asset /application.js - 200 OK (0ms)
+
+
+Started POST "/contestants" for 127.0.0.1 at 2013-02-24 16:48:20 -0600
+Processing by ContestantsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rZmHtXyg9L7+lma8cLQ/93svDcFKt8oWLnVDYbSTL0k=", "contestant"=>{"first_name"=>"Carlos", "last_name"=>"Interone", "city"=>"La Crosse", "country"=>"United States", "state"=>"WI", "phone"=>"555-555-5555", "email"=>"carlos@mostlyclicks.com", "email_confirmation"=>"fffss@stuff.com", "gender"=>"Male", "age"=>"35 - 49", "newsletter"=>"1", "rules"=>"1"}, "commit"=>"Submit"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  Rendered contestants/_form.html.erb (41.8ms)
+  Rendered contestants/new.html.erb within layouts/application (42.6ms)
+Completed 200 OK in 54ms (Views: 50.7ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/contestants" for 127.0.0.1 at 2013-02-24 16:48:39 -0600
+Processing by ContestantsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rZmHtXyg9L7+lma8cLQ/93svDcFKt8oWLnVDYbSTL0k=", "contestant"=>{"first_name"=>"Carlos", "last_name"=>"Interone", "city"=>"La Crosse", "country"=>"United States", "state"=>"WI", "phone"=>"555-555-5555", "email"=>"carlos@mostlyclicks.com", "email_confirmation"=>"carlos@mostlyclicks.com", "gender"=>"Male", "age"=>"35 - 49", "newsletter"=>"1", "rules"=>"1"}, "commit"=>"Submit"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (214.2ms)[0m  INSERT INTO "contestants" ("age", "city", "country", "created_at", "email", "first_name", "gender", "last_name", "newsletter", "phone", "rules", "state", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"  [["age", "35 - 49"], ["city", "La Crosse"], ["country", "United States"], ["created_at", Sun, 24 Feb 2013 22:48:39 UTC +00:00], ["email", "carlos@mostlyclicks.com"], ["first_name", "Carlos"], ["gender", "Male"], ["last_name", "Interone"], ["newsletter", true], ["phone", "555-555-5555"], ["rules", true], ["state", "WI"], ["updated_at", Sun, 24 Feb 2013 22:48:39 UTC +00:00]]
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/contestants/5
+Completed 302 Found in 220ms (ActiveRecord: 215.1ms)
+
+
+Started GET "/contestants/5" for 127.0.0.1 at 2013-02-24 16:48:39 -0600
+Processing by ContestantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mContestant Load (0.7ms)[0m  SELECT "contestants".* FROM "contestants" WHERE "contestants"."id" = $1 LIMIT 1  [["id", "5"]]
+  Rendered contestants/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 13ms (Views: 9.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/contestants" for 127.0.0.1 at 2013-02-24 16:48:43 -0600
+Processing by ContestantsController#index as HTML
+  [1m[36mContestant Load (0.4ms)[0m  [1mSELECT "contestants".* FROM "contestants" [0m
+  Rendered contestants/index.html.erb within layouts/application (16.3ms)
+Completed 200 OK in 57ms (Views: 55.5ms | ActiveRecord: 0.4ms)
