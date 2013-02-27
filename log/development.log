@@ -8489,3 +8489,825 @@ Processing by ContestantsController#index as HTML
   [1m[36mContestant Load (0.4ms)[0m  [1mSELECT "contestants".* FROM "contestants" [0m
   Rendered contestants/index.html.erb within layouts/application (16.3ms)
 Completed 200 OK in 57ms (Views: 55.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/contestants" for 127.0.0.1 at 2013-02-26 20:21:05 -0600
+Connecting to database specified by database.yml
+Processing by ContestantsController#index as HTML
+  [1m[36mContestant Load (21.1ms)[0m  [1mSELECT "contestants".* FROM "contestants" [0m
+  Rendered contestants/index.html.erb within layouts/application (7.9ms)
+Compiled contestants.css  (57ms)  (pid 23127)
+Compiled scaffolds.css  (13ms)  (pid 23127)
+Compiled application.css  (186ms)  (pid 23127)
+Compiled contestants.js  (170ms)  (pid 23127)
+Compiled application.js  (246ms)  (pid 23127)
+Completed 200 OK in 1176ms (Views: 659.6ms | ActiveRecord: 437.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-26 20:21:07 -0600
+Served asset /application.css - 200 OK (60ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-26 20:21:07 -0600
+Served asset /scaffolds.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-26 20:21:07 -0600
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-26 20:21:07 -0600
+Served asset /contestants.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-26 20:21:07 -0600
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-26 20:21:07 -0600
+Served asset /bootstrap.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-26 20:21:07 -0600
+Served asset /contestants.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-26 20:21:07 -0600
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-26 20:21:09 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (359.1ms)
+  Rendered contestants/new.html.erb within layouts/application (368.4ms)
+Completed 200 OK in 379ms (Views: 378.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-26 20:21:10 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-26 20:21:10 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-26 20:21:10 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-26 20:41:27 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (107.1ms)
+  Rendered contestants/new.html.erb within layouts/application (107.7ms)
+Completed 500 Internal Server Error in 109ms
+
+ActionView::Template::Error (undefined local variable or method `recaptcha_tags' for #<#<Class:0x007fd6e2ce2898>:0x007fd6e2ded2b0>):
+    33:     <%= f.input :newsletter, inline_label: 'Sign up for my newsletter', label: false %> 
+    34:     <%= f.input :rules, inline_label: 'I have read & agree to the sweepstakes official rules', :hint => "<a href="">Click here to read the official rules</a>", label: false %>
+    35: 
+    36:     <%= recaptcha_tags %>
+    37:     
+    38:   
+    39:     <%= f.submit  "Submit", :class => "btn offset2 btn-primary" %>
+  app/views/contestants/_form.html.erb:36:in `block in _app_views_contestants__form_html_erb__3183260266993751990_70280452998100'
+  app/views/contestants/_form.html.erb:1:in `_app_views_contestants__form_html_erb__3183260266993751990_70280452998100'
+  app/views/contestants/new.html.erb:3:in `_app_views_contestants_new_html_erb__2557866133673984531_70280451508480'
+  app/controllers/contestants_controller.rb:29:in `new'
+
+
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (42.8ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-26 20:41:49 -0600
+Connecting to database specified by database.yml
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (110.0ms)
+  Rendered contestants/new.html.erb within layouts/application (114.2ms)
+Completed 500 Internal Server Error in 184ms
+
+ActionView::Template::Error (No public key specified.):
+    33:     <%= f.input :newsletter, inline_label: 'Sign up for my newsletter', label: false %> 
+    34:     <%= f.input :rules, inline_label: 'I have read & agree to the sweepstakes official rules', :hint => "<a href="">Click here to read the official rules</a>", label: false %>
+    35: 
+    36:     <%= recaptcha_tags %>
+    37:     
+    38:   
+    39:     <%= f.submit  "Submit", :class => "btn offset2 btn-primary" %>
+  app/views/contestants/_form.html.erb:36:in `block in _app_views_contestants__form_html_erb___1762783268644219278_70188182401700'
+  app/views/contestants/_form.html.erb:1:in `_app_views_contestants__form_html_erb___1762783268644219278_70188182401700'
+  app/views/contestants/new.html.erb:3:in `_app_views_contestants_new_html_erb___1504926610071008585_70188181208820'
+  app/controllers/contestants_controller.rb:29:in `new'
+
+
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.4ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-26 20:42:50 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (22.7ms)
+  Rendered contestants/new.html.erb within layouts/application (23.3ms)
+Completed 500 Internal Server Error in 25ms
+
+ActionView::Template::Error (No public key specified.):
+    33:     <%= f.input :newsletter, inline_label: 'Sign up for my newsletter', label: false %> 
+    34:     <%= f.input :rules, inline_label: 'I have read & agree to the sweepstakes official rules', :hint => "<a href="">Click here to read the official rules</a>", label: false %>
+    35: 
+    36:     <%= recaptcha_tags %>
+    37:     
+    38:   
+    39:     <%= f.submit  "Submit", :class => "btn offset2 btn-primary" %>
+  app/views/contestants/_form.html.erb:36:in `block in _app_views_contestants__form_html_erb___1762783268644219278_70188182401700'
+  app/views/contestants/_form.html.erb:1:in `_app_views_contestants__form_html_erb___1762783268644219278_70188182401700'
+  app/views/contestants/new.html.erb:3:in `_app_views_contestants_new_html_erb___1504926610071008585_70188181208820'
+  app/controllers/contestants_controller.rb:29:in `new'
+
+
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (28.1ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-26 20:42:52 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (29.6ms)
+  Rendered contestants/new.html.erb within layouts/application (30.2ms)
+Completed 500 Internal Server Error in 32ms
+
+ActionView::Template::Error (No public key specified.):
+    33:     <%= f.input :newsletter, inline_label: 'Sign up for my newsletter', label: false %> 
+    34:     <%= f.input :rules, inline_label: 'I have read & agree to the sweepstakes official rules', :hint => "<a href="">Click here to read the official rules</a>", label: false %>
+    35: 
+    36:     <%= recaptcha_tags %>
+    37:     
+    38:   
+    39:     <%= f.submit  "Submit", :class => "btn offset2 btn-primary" %>
+  app/views/contestants/_form.html.erb:36:in `block in _app_views_contestants__form_html_erb___1762783268644219278_70188182401700'
+  app/views/contestants/_form.html.erb:1:in `_app_views_contestants__form_html_erb___1762783268644219278_70188182401700'
+  app/views/contestants/new.html.erb:3:in `_app_views_contestants_new_html_erb___1504926610071008585_70188181208820'
+  app/controllers/contestants_controller.rb:29:in `new'
+
+
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.2ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-26 20:43:19 -0600
+Connecting to database specified by database.yml
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (106.2ms)
+  Rendered contestants/new.html.erb within layouts/application (110.4ms)
+Completed 500 Internal Server Error in 178ms
+
+ActionView::Template::Error (No public key specified.):
+    33:     <%= f.input :newsletter, inline_label: 'Sign up for my newsletter', label: false %> 
+    34:     <%= f.input :rules, inline_label: 'I have read & agree to the sweepstakes official rules', :hint => "<a href="">Click here to read the official rules</a>", label: false %>
+    35: 
+    36:     <%= recaptcha_tags %>
+    37:     
+    38:   
+    39:     <%= f.submit  "Submit", :class => "btn offset2 btn-primary" %>
+  app/views/contestants/_form.html.erb:36:in `block in _app_views_contestants__form_html_erb___287056153062798589_70253888036600'
+  app/views/contestants/_form.html.erb:1:in `_app_views_contestants__form_html_erb___287056153062798589_70253888036600'
+  app/views/contestants/new.html.erb:3:in `_app_views_contestants_new_html_erb___4241666988374911176_70253889424680'
+  app/controllers/contestants_controller.rb:29:in `new'
+
+
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.4ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-26 20:43:23 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (19.3ms)
+  Rendered contestants/new.html.erb within layouts/application (19.9ms)
+Completed 500 Internal Server Error in 22ms
+
+ActionView::Template::Error (No public key specified.):
+    33:     <%= f.input :newsletter, inline_label: 'Sign up for my newsletter', label: false %> 
+    34:     <%= f.input :rules, inline_label: 'I have read & agree to the sweepstakes official rules', :hint => "<a href="">Click here to read the official rules</a>", label: false %>
+    35: 
+    36:     <%= recaptcha_tags %>
+    37:     
+    38:   
+    39:     <%= f.submit  "Submit", :class => "btn offset2 btn-primary" %>
+  app/views/contestants/_form.html.erb:36:in `block in _app_views_contestants__form_html_erb___287056153062798589_70253888036600'
+  app/views/contestants/_form.html.erb:1:in `_app_views_contestants__form_html_erb___287056153062798589_70253888036600'
+  app/views/contestants/new.html.erb:3:in `_app_views_contestants_new_html_erb___4241666988374911176_70253889424680'
+  app/controllers/contestants_controller.rb:29:in `new'
+
+
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (28.1ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-26 20:43:48 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (25.3ms)
+  Rendered contestants/new.html.erb within layouts/application (25.9ms)
+Completed 500 Internal Server Error in 28ms
+
+ActionView::Template::Error (No public key specified.):
+    33:     <%= f.input :newsletter, inline_label: 'Sign up for my newsletter', label: false %> 
+    34:     <%= f.input :rules, inline_label: 'I have read & agree to the sweepstakes official rules', :hint => "<a href="">Click here to read the official rules</a>", label: false %>
+    35: 
+    36:     <%= recaptcha_tags %>
+    37:     
+    38:   
+    39:     <%= f.submit  "Submit", :class => "btn offset2 btn-primary" %>
+  app/views/contestants/_form.html.erb:36:in `block in _app_views_contestants__form_html_erb___287056153062798589_70253888036600'
+  app/views/contestants/_form.html.erb:1:in `_app_views_contestants__form_html_erb___287056153062798589_70253888036600'
+  app/views/contestants/new.html.erb:3:in `_app_views_contestants_new_html_erb___4241666988374911176_70253889424680'
+  app/controllers/contestants_controller.rb:29:in `new'
+
+
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.9ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-26 20:44:06 -0600
+Connecting to database specified by database.yml
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (106.8ms)
+  Rendered contestants/new.html.erb within layouts/application (111.0ms)
+Completed 500 Internal Server Error in 177ms
+
+ActionView::Template::Error (No public key specified.):
+    33:     <%= f.input :newsletter, inline_label: 'Sign up for my newsletter', label: false %> 
+    34:     <%= f.input :rules, inline_label: 'I have read & agree to the sweepstakes official rules', :hint => "<a href="">Click here to read the official rules</a>", label: false %>
+    35: 
+    36:     <%= recaptcha_tags %>
+    37:     
+    38:   
+    39:     <%= f.submit  "Submit", :class => "btn offset2 btn-primary" %>
+  app/views/contestants/_form.html.erb:36:in `block in _app_views_contestants__form_html_erb___3388438618964416072_70109454401080'
+  app/views/contestants/_form.html.erb:1:in `_app_views_contestants__form_html_erb___3388438618964416072_70109454401080'
+  app/views/contestants/new.html.erb:3:in `_app_views_contestants_new_html_erb___3030118238274753142_70109455030080'
+  app/controllers/contestants_controller.rb:29:in `new'
+
+
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.4ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-26 20:44:09 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (22.0ms)
+  Rendered contestants/new.html.erb within layouts/application (22.5ms)
+Completed 500 Internal Server Error in 24ms
+
+ActionView::Template::Error (No public key specified.):
+    33:     <%= f.input :newsletter, inline_label: 'Sign up for my newsletter', label: false %> 
+    34:     <%= f.input :rules, inline_label: 'I have read & agree to the sweepstakes official rules', :hint => "<a href="">Click here to read the official rules</a>", label: false %>
+    35: 
+    36:     <%= recaptcha_tags %>
+    37:     
+    38:   
+    39:     <%= f.submit  "Submit", :class => "btn offset2 btn-primary" %>
+  app/views/contestants/_form.html.erb:36:in `block in _app_views_contestants__form_html_erb___3388438618964416072_70109454401080'
+  app/views/contestants/_form.html.erb:1:in `_app_views_contestants__form_html_erb___3388438618964416072_70109454401080'
+  app/views/contestants/new.html.erb:3:in `_app_views_contestants_new_html_erb___3030118238274753142_70109455030080'
+  app/controllers/contestants_controller.rb:29:in `new'
+
+
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.7ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-26 20:44:59 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (24.2ms)
+  Rendered contestants/new.html.erb within layouts/application (24.8ms)
+Completed 500 Internal Server Error in 27ms
+
+ActionView::Template::Error (No public key specified.):
+    33:     <%= f.input :newsletter, inline_label: 'Sign up for my newsletter', label: false %> 
+    34:     <%= f.input :rules, inline_label: 'I have read & agree to the sweepstakes official rules', :hint => "<a href="">Click here to read the official rules</a>", label: false %>
+    35: 
+    36:     <%= recaptcha_tags %>
+    37:     
+    38:   
+    39:     <%= f.submit  "Submit", :class => "btn offset2 btn-primary" %>
+  app/views/contestants/_form.html.erb:36:in `block in _app_views_contestants__form_html_erb___3388438618964416072_70109454401080'
+  app/views/contestants/_form.html.erb:1:in `_app_views_contestants__form_html_erb___3388438618964416072_70109454401080'
+  app/views/contestants/new.html.erb:3:in `_app_views_contestants_new_html_erb___3030118238274753142_70109455030080'
+  app/controllers/contestants_controller.rb:29:in `new'
+
+
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.9ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-26 20:45:00 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (66.1ms)
+  Rendered contestants/new.html.erb within layouts/application (66.8ms)
+Completed 500 Internal Server Error in 69ms
+
+ActionView::Template::Error (No public key specified.):
+    33:     <%= f.input :newsletter, inline_label: 'Sign up for my newsletter', label: false %> 
+    34:     <%= f.input :rules, inline_label: 'I have read & agree to the sweepstakes official rules', :hint => "<a href="">Click here to read the official rules</a>", label: false %>
+    35: 
+    36:     <%= recaptcha_tags %>
+    37:     
+    38:   
+    39:     <%= f.submit  "Submit", :class => "btn offset2 btn-primary" %>
+  app/views/contestants/_form.html.erb:36:in `block in _app_views_contestants__form_html_erb___3388438618964416072_70109454401080'
+  app/views/contestants/_form.html.erb:1:in `_app_views_contestants__form_html_erb___3388438618964416072_70109454401080'
+  app/views/contestants/new.html.erb:3:in `_app_views_contestants_new_html_erb___3030118238274753142_70109455030080'
+  app/controllers/contestants_controller.rb:29:in `new'
+
+
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.7ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-26 20:45:11 -0600
+Connecting to database specified by database.yml
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (109.6ms)
+  Rendered contestants/new.html.erb within layouts/application (113.8ms)
+Completed 500 Internal Server Error in 181ms
+
+ActionView::Template::Error (No public key specified.):
+    33:     <%= f.input :newsletter, inline_label: 'Sign up for my newsletter', label: false %> 
+    34:     <%= f.input :rules, inline_label: 'I have read & agree to the sweepstakes official rules', :hint => "<a href="">Click here to read the official rules</a>", label: false %>
+    35: 
+    36:     <%= recaptcha_tags %>
+    37:     
+    38:   
+    39:     <%= f.submit  "Submit", :class => "btn offset2 btn-primary" %>
+  app/views/contestants/_form.html.erb:36:in `block in _app_views_contestants__form_html_erb___2494483591314838082_70313666808640'
+  app/views/contestants/_form.html.erb:1:in `_app_views_contestants__form_html_erb___2494483591314838082_70313666808640'
+  app/views/contestants/new.html.erb:3:in `_app_views_contestants_new_html_erb___543347301456191962_70313666979000'
+  app/controllers/contestants_controller.rb:29:in `new'
+
+
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.5ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-26 20:45:34 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (23.1ms)
+  Rendered contestants/new.html.erb within layouts/application (23.7ms)
+Completed 500 Internal Server Error in 25ms
+
+ActionView::Template::Error (No public key specified.):
+    33:     <%= f.input :newsletter, inline_label: 'Sign up for my newsletter', label: false %> 
+    34:     <%= f.input :rules, inline_label: 'I have read & agree to the sweepstakes official rules', :hint => "<a href="">Click here to read the official rules</a>", label: false %>
+    35: 
+    36:     <%= recaptcha_tags %>
+    37:     
+    38:   
+    39:     <%= f.submit  "Submit", :class => "btn offset2 btn-primary" %>
+  app/views/contestants/_form.html.erb:36:in `block in _app_views_contestants__form_html_erb___2494483591314838082_70313666808640'
+  app/views/contestants/_form.html.erb:1:in `_app_views_contestants__form_html_erb___2494483591314838082_70313666808640'
+  app/views/contestants/new.html.erb:3:in `_app_views_contestants_new_html_erb___543347301456191962_70313666979000'
+  app/controllers/contestants_controller.rb:29:in `new'
+
+
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.7ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-26 20:45:35 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (24.6ms)
+  Rendered contestants/new.html.erb within layouts/application (25.2ms)
+Completed 500 Internal Server Error in 27ms
+
+ActionView::Template::Error (No public key specified.):
+    33:     <%= f.input :newsletter, inline_label: 'Sign up for my newsletter', label: false %> 
+    34:     <%= f.input :rules, inline_label: 'I have read & agree to the sweepstakes official rules', :hint => "<a href="">Click here to read the official rules</a>", label: false %>
+    35: 
+    36:     <%= recaptcha_tags %>
+    37:     
+    38:   
+    39:     <%= f.submit  "Submit", :class => "btn offset2 btn-primary" %>
+  app/views/contestants/_form.html.erb:36:in `block in _app_views_contestants__form_html_erb___2494483591314838082_70313666808640'
+  app/views/contestants/_form.html.erb:1:in `_app_views_contestants__form_html_erb___2494483591314838082_70313666808640'
+  app/views/contestants/new.html.erb:3:in `_app_views_contestants_new_html_erb___543347301456191962_70313666979000'
+  app/controllers/contestants_controller.rb:29:in `new'
+
+
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.2ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-26 20:45:45 -0600
+Connecting to database specified by database.yml
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (106.0ms)
+  Rendered contestants/new.html.erb within layouts/application (110.1ms)
+Completed 500 Internal Server Error in 176ms
+
+ActionView::Template::Error (No public key specified.):
+    33:     <%= f.input :newsletter, inline_label: 'Sign up for my newsletter', label: false %> 
+    34:     <%= f.input :rules, inline_label: 'I have read & agree to the sweepstakes official rules', :hint => "<a href="">Click here to read the official rules</a>", label: false %>
+    35: 
+    36:     <%= recaptcha_tags %>
+    37:     
+    38:   
+    39:     <%= f.submit  "Submit", :class => "btn offset2 btn-primary" %>
+  app/views/contestants/_form.html.erb:36:in `block in _app_views_contestants__form_html_erb___2329532877822902165_70207359786320'
+  app/views/contestants/_form.html.erb:1:in `_app_views_contestants__form_html_erb___2329532877822902165_70207359786320'
+  app/views/contestants/new.html.erb:3:in `_app_views_contestants_new_html_erb__3766154813004613377_70207358396220'
+  app/controllers/contestants_controller.rb:29:in `new'
+
+
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.5ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-26 20:45:49 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (23.3ms)
+  Rendered contestants/new.html.erb within layouts/application (23.9ms)
+Completed 500 Internal Server Error in 26ms
+
+ActionView::Template::Error (No public key specified.):
+    33:     <%= f.input :newsletter, inline_label: 'Sign up for my newsletter', label: false %> 
+    34:     <%= f.input :rules, inline_label: 'I have read & agree to the sweepstakes official rules', :hint => "<a href="">Click here to read the official rules</a>", label: false %>
+    35: 
+    36:     <%= recaptcha_tags %>
+    37:     
+    38:   
+    39:     <%= f.submit  "Submit", :class => "btn offset2 btn-primary" %>
+  app/views/contestants/_form.html.erb:36:in `block in _app_views_contestants__form_html_erb___2329532877822902165_70207359786320'
+  app/views/contestants/_form.html.erb:1:in `_app_views_contestants__form_html_erb___2329532877822902165_70207359786320'
+  app/views/contestants/new.html.erb:3:in `_app_views_contestants_new_html_erb__3766154813004613377_70207358396220'
+  app/controllers/contestants_controller.rb:29:in `new'
+
+
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (29.1ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-26 20:47:52 -0600
+Connecting to database specified by database.yml
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (112.9ms)
+  Rendered contestants/new.html.erb within layouts/application (117.1ms)
+Completed 500 Internal Server Error in 182ms
+
+ActionView::Template::Error (No public key specified.):
+    33:     <%= f.input :newsletter, inline_label: 'Sign up for my newsletter', label: false %> 
+    34:     <%= f.input :rules, inline_label: 'I have read & agree to the sweepstakes official rules', :hint => "<a href="">Click here to read the official rules</a>", label: false %>
+    35: 
+    36:     <%= recaptcha_tags %>
+    37:     
+    38:   
+    39:     <%= f.submit  "Submit", :class => "btn offset2 btn-primary" %>
+  app/views/contestants/_form.html.erb:36:in `block in _app_views_contestants__form_html_erb___3450245358264199322_70296224630800'
+  app/views/contestants/_form.html.erb:1:in `_app_views_contestants__form_html_erb___3450245358264199322_70296224630800'
+  app/views/contestants/new.html.erb:3:in `_app_views_contestants_new_html_erb___417939945056397394_70296227096340'
+  app/controllers/contestants_controller.rb:29:in `new'
+
+
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.6ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-26 20:51:11 -0600
+Connecting to database specified by database.yml
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (113.0ms)
+  Rendered contestants/new.html.erb within layouts/application (118.1ms)
+Completed 500 Internal Server Error in 189ms
+
+ActionView::Template::Error (No public key specified.):
+    33:     <%= f.input :newsletter, inline_label: 'Sign up for my newsletter', label: false %> 
+    34:     <%= f.input :rules, inline_label: 'I have read & agree to the sweepstakes official rules', :hint => "<a href="">Click here to read the official rules</a>", label: false %>
+    35: 
+    36:     <%= recaptcha_tags %>
+    37:     
+    38:   
+    39:     <%= f.submit  "Submit", :class => "btn offset2 btn-primary" %>
+  app/views/contestants/_form.html.erb:36:in `block in _app_views_contestants__form_html_erb__4120935620524643164_70113946776560'
+  app/views/contestants/_form.html.erb:1:in `_app_views_contestants__form_html_erb__4120935620524643164_70113946776560'
+  app/views/contestants/new.html.erb:3:in `_app_views_contestants_new_html_erb__1907963029023391842_70113955550140'
+  app/controllers/contestants_controller.rb:29:in `new'
+
+
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.8ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-26 20:51:53 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (23.9ms)
+  Rendered contestants/new.html.erb within layouts/application (24.5ms)
+Completed 500 Internal Server Error in 26ms
+
+ActionView::Template::Error (No public key specified.):
+    33:     <%= f.input :newsletter, inline_label: 'Sign up for my newsletter', label: false %> 
+    34:     <%= f.input :rules, inline_label: 'I have read & agree to the sweepstakes official rules', :hint => "<a href="">Click here to read the official rules</a>", label: false %>
+    35: 
+    36:     <%= recaptcha_tags %>
+    37:     
+    38:   
+    39:     <%= f.submit  "Submit", :class => "btn offset2 btn-primary" %>
+  app/views/contestants/_form.html.erb:36:in `block in _app_views_contestants__form_html_erb__4120935620524643164_70113946776560'
+  app/views/contestants/_form.html.erb:1:in `_app_views_contestants__form_html_erb__4120935620524643164_70113946776560'
+  app/views/contestants/new.html.erb:3:in `_app_views_contestants_new_html_erb__1907963029023391842_70113955550140'
+  app/controllers/contestants_controller.rb:29:in `new'
+
+
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (28.1ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-26 20:51:55 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (31.0ms)
+  Rendered contestants/new.html.erb within layouts/application (31.7ms)
+Completed 500 Internal Server Error in 34ms
+
+ActionView::Template::Error (No public key specified.):
+    33:     <%= f.input :newsletter, inline_label: 'Sign up for my newsletter', label: false %> 
+    34:     <%= f.input :rules, inline_label: 'I have read & agree to the sweepstakes official rules', :hint => "<a href="">Click here to read the official rules</a>", label: false %>
+    35: 
+    36:     <%= recaptcha_tags %>
+    37:     
+    38:   
+    39:     <%= f.submit  "Submit", :class => "btn offset2 btn-primary" %>
+  app/views/contestants/_form.html.erb:36:in `block in _app_views_contestants__form_html_erb__4120935620524643164_70113946776560'
+  app/views/contestants/_form.html.erb:1:in `_app_views_contestants__form_html_erb__4120935620524643164_70113946776560'
+  app/views/contestants/new.html.erb:3:in `_app_views_contestants_new_html_erb__1907963029023391842_70113955550140'
+  app/controllers/contestants_controller.rb:29:in `new'
+
+
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/ceinterone17/.rvm/gems/ruby-1.9.3-p194@everscontest/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.9ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-26 20:52:18 -0600
+Connecting to database specified by database.yml
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (106.0ms)
+  Rendered contestants/new.html.erb within layouts/application (110.4ms)
+Completed 200 OK in 294ms (Views: 235.9ms | ActiveRecord: 7.3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-26 20:52:19 -0600
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-26 20:52:19 -0600
+Served asset /contestants.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-26 20:52:19 -0600
+Served asset /bootstrap.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-26 20:52:19 -0600
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-26 20:52:19 -0600
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-26 20:52:19 -0600
+Served asset /contestants.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-26 20:52:19 -0600
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-26 20:52:19 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-02-26 21:02:17 -0600
+Connecting to database specified by database.yml
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (103.3ms)
+  Rendered contestants/new.html.erb within layouts/application (107.6ms)
+Completed 200 OK in 208ms (Views: 147.8ms | ActiveRecord: 8.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-26 21:02:18 -0600
+Served asset /application.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-26 21:02:18 -0600
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-26 21:02:18 -0600
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-26 21:02:18 -0600
+Served asset /bootstrap.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-26 21:02:18 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-26 21:02:18 -0600
+Served asset /contestants.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-26 21:02:18 -0600
+Served asset /contestants.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-26 21:02:18 -0600
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started POST "/contestants" for 127.0.0.1 at 2013-02-26 21:02:34 -0600
+Processing by ContestantsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tuoDbUg49GSvR72Y5qFhIgn2KDCNGmX1rM9dx1IZK7E=", "contestant"=>{"first_name"=>"", "last_name"=>"", "city"=>"", "country"=>"United States", "state"=>"", "phone"=>"", "email"=>"", "email_confirmation"=>"", "gender"=>"", "age"=>"", "newsletter"=>"0", "rules"=>"0"}, "recaptcha_challenge_field"=>"03AHJ_Vut6qKEr-b2Afa2d2jT3ovLh4SzrtjoQdonUzyT6MsqO0_dhPp3iVGv061loIwrtMNqNTyWcvZMGhT6PhaIymxVAhj_gRZYzkbpGms-4N-0NIB_4h3fO3-2Kb8WYkj26eAh9N2aYJdKgVwvnw1SDmuxUde7toPoQJ1oVfRoRXMYGAdt6I4o", "recaptcha_response_field"=>"ccc ccc", "commit"=>"Submit"}
+  Rendered contestants/_form.html.erb (49.4ms)
+  Rendered contestants/new.html.erb within layouts/application (50.4ms)
+Completed 200 OK in 554ms (Views: 58.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-26 21:02:34 -0600
+Served asset /application.css - 304 Not Modified (28ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-26 21:02:34 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-26 21:02:34 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-26 21:02:34 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-26 21:02:34 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-26 21:02:34 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-26 21:02:34 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-26 21:02:34 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/contestants" for 127.0.0.1 at 2013-02-26 21:02:47 -0600
+Processing by ContestantsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tuoDbUg49GSvR72Y5qFhIgn2KDCNGmX1rM9dx1IZK7E=", "contestant"=>{"first_name"=>"", "last_name"=>"", "city"=>"", "country"=>"United States", "state"=>"", "phone"=>"", "email"=>"", "email_confirmation"=>"", "gender"=>"", "age"=>"", "newsletter"=>"0", "rules"=>"0"}, "recaptcha_challenge_field"=>"03AHJ_VuvFgtHzuK2qQa3HByqaPuAf1E0GorOPBw0wUQGWDCjVnFB7v20wm7XJV3vqDW4MZTG1FkBtzLj8Y_zNJN9S9zxodQT2qMTpcirj8vUKJQYMBpvkbRpi47aJDo5_0WknhmpDkB8VzceJndhQIgNYxZnnWE0b4jTHVSrx0bOCGAoP8K6F1Vg", "recaptcha_response_field"=>"Hans inedyish", "commit"=>"Submit"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  Rendered contestants/_form.html.erb (46.5ms)
+  Rendered contestants/new.html.erb within layouts/application (47.5ms)
+Completed 200 OK in 223ms (Views: 57.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-26 21:02:47 -0600
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-26 21:02:47 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-26 21:02:47 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-26 21:02:47 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-26 21:02:47 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-26 21:02:47 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-26 21:02:47 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-26 21:02:47 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started POST "/contestants" for 127.0.0.1 at 2013-02-26 21:03:32 -0600
+Processing by ContestantsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tuoDbUg49GSvR72Y5qFhIgn2KDCNGmX1rM9dx1IZK7E=", "contestant"=>{"first_name"=>"John", "last_name"=>"Horsfall", "city"=>"La Crosse", "country"=>"United States", "state"=>"WI", "phone"=>"54601", "email"=>"carlos@mostlyclicks.com", "email_confirmation"=>"carlos@mostlyclicks.com", "gender"=>"Male", "age"=>"35 - 49", "newsletter"=>"1", "rules"=>"1"}, "recaptcha_challenge_field"=>"03AHJ_VuuaEwJxix3UMz93QupU0_aabKcBi2PZBcc36aAHPMnuaxWtTPq07GJIdDrSwZOOjIj984GYQWedyVycrt4g-PmuAp1ILpbJroynGXECL3ZIAFcdixjaikWu7L7Y4Ky5nnAA-0RIbaBgItMSJkPmDUsKY_MjJZ_gYLGnWs2nWp3pvjIfZR4", "recaptcha_response_field"=>"and eneredor", "commit"=>"Submit"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (115.9ms)[0m  INSERT INTO "contestants" ("age", "city", "country", "created_at", "email", "first_name", "gender", "last_name", "newsletter", "phone", "rules", "state", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"  [["age", "35 - 49"], ["city", "La Crosse"], ["country", "United States"], ["created_at", Wed, 27 Feb 2013 03:03:32 UTC +00:00], ["email", "carlos@mostlyclicks.com"], ["first_name", "John"], ["gender", "Male"], ["last_name", "Horsfall"], ["newsletter", true], ["phone", "54601"], ["rules", true], ["state", "WI"], ["updated_at", Wed, 27 Feb 2013 03:03:32 UTC +00:00]]
+  [1m[36m (22.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/contestants/13
+Completed 302 Found in 282ms (ActiveRecord: 138.4ms)
+
+
+Started GET "/contestants/13" for 127.0.0.1 at 2013-02-26 21:03:33 -0600
+Processing by ContestantsController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[35mContestant Load (0.7ms)[0m  SELECT "contestants".* FROM "contestants" WHERE "contestants"."id" = $1 LIMIT 1  [["id", "13"]]
+  Rendered contestants/show.html.erb within layouts/application (24.9ms)
+Completed 200 OK in 60ms (Views: 56.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-26 21:03:33 -0600
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-26 21:03:33 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-26 21:03:33 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-26 21:03:33 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-26 21:03:33 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-26 21:03:33 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-26 21:03:33 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-26 21:03:33 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contestants" for 127.0.0.1 at 2013-02-26 21:03:38 -0600
+Processing by ContestantsController#index as HTML
+  [1m[36mContestant Load (0.3ms)[0m  [1mSELECT "contestants".* FROM "contestants" [0m
+  Rendered contestants/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-26 21:03:38 -0600
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-26 21:03:38 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-02-26 21:03:38 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-02-26 21:03:38 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-26 21:03:38 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-26 21:03:38 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-26 21:03:38 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-26 21:03:38 -0600
+Served asset /application.js - 304 Not Modified (0ms)

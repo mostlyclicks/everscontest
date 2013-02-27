@@ -43,7 +43,8 @@ class ContestantsController < ApplicationController
     @contestant = Contestant.new(params[:contestant])
 
     respond_to do |format|
-      if @contestant.save
+
+      if verify_recaptcha(:model => @contestant, :message => "Oh! It's error with reCAPTCHA!") && @contestant.save
         format.html { redirect_to @contestant, notice: 'Contestant was successfully created.' }
         format.json { render json: @contestant, status: :created, location: @contestant }
       else
@@ -52,6 +53,8 @@ class ContestantsController < ApplicationController
       end
     end
   end
+
+  #if @model.save && verify_recaptcha(:model => @developer, :message => "Oh! It's error with reCAPTCHA!") #captcha is valid else #captcha is invalid end
 
   # PUT /contestants/1
   # PUT /contestants/1.json

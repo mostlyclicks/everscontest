@@ -58,5 +58,8 @@ module Everscontest
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+    ENV['RECAPTCHA_PUBLIC_KEY'] = '6LdRi90SAAAAAGskSKBYvg-g6P9iuP5XyjLG5_sT'
+    ENV['RECAPTCHA_PRIVATE_KEY'] = '6LdRi90SAAAAAC2TQ8X13AtjsLu0_P64g86HxJqr'
   end
 end

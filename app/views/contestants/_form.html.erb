@@ -32,6 +32,8 @@
     
     <%= f.input :newsletter, inline_label: 'Sign up for my newsletter', label: false %> 
     <%= f.input :rules, inline_label: 'I have read & agree to the sweepstakes official rules', :hint => "<a href="">Click here to read the official rules</a>", label: false %>
+
+    <%= recaptcha_tags %>
     
   
     <%= f.submit  "Submit", :class => "btn offset2 btn-primary" %>
