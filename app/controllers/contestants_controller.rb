@@ -1,4 +1,6 @@
 class ContestantsController < ApplicationController
+
+  layout 'fb_form', only: :new
   # GET /contestants
   # GET /contestants.json
   def index
@@ -24,6 +26,7 @@ class ContestantsController < ApplicationController
   # GET /contestants/new
   # GET /contestants/new.json
   def new
+
     @contestant = Contestant.new
 
     respond_to do |format|
@@ -53,8 +56,6 @@ class ContestantsController < ApplicationController
       end
     end
   end
-
-  #if @model.save && verify_recaptcha(:model => @developer, :message => "Oh! It's error with reCAPTCHA!") #captcha is valid else #captcha is invalid end
 
   # PUT /contestants/1
   # PUT /contestants/1.json

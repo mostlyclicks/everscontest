@@ -1,3 +1,5 @@
+<div class="row-fluid">
+<div class="span7 b-red">  
 <%= simple_form_for(@contestant, :html => {:class => 'form-horizontal' }) do |f| %>
   <% if @contestant.errors.any? %>
     <div id="error_explanation">
@@ -33,9 +35,14 @@
     <%= f.input :newsletter, inline_label: 'Sign up for my newsletter', label: false %> 
     <%= f.input :rules, inline_label: 'I have read & agree to the sweepstakes official rules', :hint => "<a href="">Click here to read the official rules</a>", label: false %>
 
-    <%= recaptcha_tags %>
+    <div class="offset2" style="margin-bottom:20px;"><%= recaptcha_tags %></div>
     
   
     <%= f.submit  "Submit", :class => "btn offset2 btn-primary" %>
 
 <% end %>
+</div>
+<div class="span5 b-red">
+right side
+</div>
+</div>
