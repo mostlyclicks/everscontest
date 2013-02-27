@@ -6,10 +6,18 @@ class ContestantsController < ApplicationController
   def index
     @contestants = Contestant.all
 
+    winner = rand(@contestants.first.id..@contestants.last.id)
+
+    @winner = Contestant.find(winner)
+
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @contestants }
     end
+  end
+
+  def thankyou
+    
   end
 
   # GET /contestants/1

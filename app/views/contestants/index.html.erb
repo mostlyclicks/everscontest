@@ -1,5 +1,6 @@
-<h1>Listing contestants</h1>
-<%= @contestants.count %>
+<h1>Contestants</h1>
+<h3>Number of entries: <%= @contestants.count %></h3>
+<h4>And the winner is... <%= @winner.first_name.capitalize + ' ' + @winner.last_name.capitalize + ' - ' + @winner.email %></h4>
 <table class="table table-striped">
   <tr>
     <th>First name</th>
