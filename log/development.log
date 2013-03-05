@@ -14848,3 +14848,598 @@ Served asset /application.js - 304 Not Modified (0ms)
 Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-04 21:03:04 -0600
 Served asset /jquery_ujs.js - 304 Not Modified (0ms)
 Connecting to database specified by database.yml
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-03-04 21:45:56 -0600
+Connecting to database specified by database.yml
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (175.7ms)
+  Rendered contestants/new.html.erb within layouts/fb_form (180.0ms)
+Compiled contestants.css  (51ms)  (pid 10987)
+Compiled scaffolds.css  (16ms)  (pid 10987)
+Compiled application.css  (173ms)  (pid 10987)
+Compiled contestants.js  (192ms)  (pid 10987)
+Compiled application.js  (269ms)  (pid 10987)
+Completed 200 OK in 900ms (Views: 841.0ms | ActiveRecord: 8.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-04 21:45:57 -0600
+Served asset /application.css - 304 Not Modified (19ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-03-04 21:45:57 -0600
+Served asset /contestants.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-04 21:45:57 -0600
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-04 21:45:57 -0600
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-04 21:45:57 -0600
+Served asset /bootstrap.css - 304 Not Modified (33ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-03-04 21:45:57 -0600
+Served asset /custom.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-04 21:45:57 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-03-04 21:45:57 -0600
+Served asset /contestants.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-04 21:45:57 -0600
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/contestants/" for 127.0.0.1 at 2013-03-04 21:46:02 -0600
+Processing by ContestantsController#index as HTML
+  [1m[36mContestant Load (0.7ms)[0m  [1mSELECT "contestants".* FROM "contestants" [0m
+  [1m[35mContestant Load (8.2ms)[0m  SELECT "contestants".* FROM "contestants" WHERE "contestants"."id" = $1 LIMIT 1  [["id", 21]]
+  Rendered contestants/index.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 38ms (Views: 24.9ms | ActiveRecord: 9.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-04 21:46:02 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-03-04 21:46:02 -0600
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-04 21:46:02 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-04 21:46:02 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-03-04 21:46:02 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-04 21:46:02 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-04 21:46:02 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-04 21:46:02 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-03-04 21:46:02 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/contestants/19/edit" for 127.0.0.1 at 2013-03-04 21:46:04 -0600
+Processing by ContestantsController#edit as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mContestant Load (0.4ms)[0m  [1mSELECT "contestants".* FROM "contestants" WHERE "contestants"."id" = $1 LIMIT 1[0m  [["id", "19"]]
+  Rendered contestants/_form.html.erb (84.3ms)
+  Rendered contestants/edit.html.erb within layouts/fb_form (86.0ms)
+Completed 200 OK in 102ms (Views: 99.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-03-04 21:46:04 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-03-04 21:46:04 -0600
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-04 21:46:04 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-04 21:46:04 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-04 21:46:04 -0600
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-04 21:46:04 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-04 21:46:04 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-03-04 21:46:04 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-04 21:46:04 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started PUT "/contestants/19" for 127.0.0.1 at 2013-03-04 21:46:33 -0600
+Processing by ContestantsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uBPP4aZgrjavWR1OA5sWvdU4PUVg00JI0N8MqXgrCCo=", "contestant"=>{"first_name"=>"Test", "last_name"=>"test", "city"=>"Sterling", "country"=>"United States", "state"=>"WI", "phone"=>"555-555-5555", "email"=>"carlos@mac.com", "email_confirmation"=>"", "gender"=>"Male", "age"=>"25 - 34", "newsletter"=>"1", "rules"=>"1"}, "recaptcha_challenge_field"=>"03AHJ_VustlCDZGj1G9g0s2oEYel66s3UD-kJxrJr2saGV359eyu40JqDQzOX3ad8mGHOBx5moxK4oOqJ3xe3BAiUgn-WQAU_vSpQGmjp4c6x6W9bL6ElfsmFX0a0-h_6YprhOMUFweCIbJRNjgtGnBS0tQ9B9GDlaI3b_CuZ3VesKum4sdu2WYbA", "recaptcha_response_field"=>"", "commit"=>"Submit", "id"=>"19"}
+  [1m[35mContestant Load (0.4ms)[0m  SELECT "contestants".* FROM "contestants" WHERE "contestants"."id" = $1 LIMIT 1  [["id", "19"]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  ROLLBACK
+  Rendered contestants/_form.html.erb (21.4ms)
+  Rendered contestants/edit.html.erb within layouts/application (22.6ms)
+Completed 200 OK in 55ms (Views: 31.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-04 21:46:33 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-04 21:46:33 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-03-04 21:46:33 -0600
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-03-04 21:46:33 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-04 21:46:33 -0600
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-04 21:46:33 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-04 21:46:33 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-04 21:46:33 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-03-04 21:46:33 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started PUT "/contestants/19" for 127.0.0.1 at 2013-03-04 21:47:40 -0600
+Processing by ContestantsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uBPP4aZgrjavWR1OA5sWvdU4PUVg00JI0N8MqXgrCCo=", "contestant"=>{"first_name"=>"Test", "last_name"=>"test", "city"=>"Sterling", "country"=>"United States", "state"=>"WI", "phone"=>"555-555-5555", "email"=>"carlos@mac.com", "email_confirmation"=>"", "gender"=>"Male", "age"=>"25 - 34", "newsletter"=>"1", "rules"=>"1"}, "recaptcha_challenge_field"=>"03AHJ_VustlCDZGj1G9g0s2oEYel66s3UD-kJxrJr2saGV359eyu40JqDQzOX3ad8mGHOBx5moxK4oOqJ3xe3BAiUgn-WQAU_vSpQGmjp4c6x6W9bL6ElfsmFX0a0-h_6YprhOMUFweCIbJRNjgtGnBS0tQ9B9GDlaI3b_CuZ3VesKum4sdu2WYbA", "recaptcha_response_field"=>"", "commit"=>"Submit", "id"=>"19"}
+  [1m[36mContestant Load (0.2ms)[0m  [1mSELECT "contestants".* FROM "contestants" WHERE "contestants"."id" = $1 LIMIT 1[0m  [["id", "19"]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  Rendered contestants/_form.html.erb (22.7ms)
+  Rendered contestants/edit.html.erb within layouts/fb_form (23.9ms)
+Completed 200 OK in 57ms (Views: 34.3ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-04 21:47:40 -0600
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-03-04 21:47:40 -0600
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-04 21:47:40 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-04 21:47:40 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-03-04 21:47:40 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-04 21:47:40 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-04 21:47:40 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-03-04 21:47:40 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-04 21:47:40 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started PUT "/contestants/19" for 127.0.0.1 at 2013-03-04 21:48:06 -0600
+Processing by ContestantsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uBPP4aZgrjavWR1OA5sWvdU4PUVg00JI0N8MqXgrCCo=", "contestant"=>{"first_name"=>"Test", "last_name"=>"test", "city"=>"Sterling", "country"=>"United States", "state"=>"WI", "phone"=>"555-555-5555", "email"=>"carlos@mac.com", "email_confirmation"=>"carlos@mac.com", "gender"=>"Male", "age"=>"25 - 34", "newsletter"=>"1", "rules"=>"1"}, "recaptcha_challenge_field"=>"03AHJ_Vusdj7c3VVXiZw4IerhsUP7JZO_au0wSIZUcN2HNizOAKQHgljBAAQChO4BhsEddFTZpRciMW66ithmh2jp9QMFd9KYcHFvgNklkjooORZzdsWU_s9zLNvv7XLB9WUmi8h6u7fFSv7MWTAhho_ExijT1uM94aLsceMj27lSWxF25RZgMSxU", "recaptcha_response_field"=>"360 shoityl", "commit"=>"Submit", "id"=>"19"}
+  [1m[35mContestant Load (0.4ms)[0m  SELECT "contestants".* FROM "contestants" WHERE "contestants"."id" = $1 LIMIT 1  [["id", "19"]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+Redirected to http://localhost:3000/contestants/19
+Completed 302 Found in 5ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/contestants/19" for 127.0.0.1 at 2013-03-04 21:48:06 -0600
+Processing by ContestantsController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mContestant Load (0.5ms)[0m  [1mSELECT "contestants".* FROM "contestants" WHERE "contestants"."id" = $1 LIMIT 1[0m  [["id", "19"]]
+  Rendered contestants/show.html.erb within layouts/fb_form (1.7ms)
+Completed 200 OK in 18ms (Views: 16.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-04 21:48:06 -0600
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-04 21:48:06 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-04 21:48:06 -0600
+Served asset /bootstrap.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-03-04 21:48:06 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-04 21:48:06 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-03-04 21:48:06 -0600
+Served asset /contestants.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-04 21:48:06 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-03-04 21:48:06 -0600
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-04 21:48:06 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contestants" for 127.0.0.1 at 2013-03-04 21:48:10 -0600
+Processing by ContestantsController#index as HTML
+  [1m[35mContestant Load (1.4ms)[0m  SELECT "contestants".* FROM "contestants" 
+  [1m[36mContestant Load (0.4ms)[0m  [1mSELECT "contestants".* FROM "contestants" WHERE "contestants"."id" = $1 LIMIT 1[0m  [["id", 22]]
+  Rendered contestants/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 24ms (Views: 19.4ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-04 21:48:11 -0600
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-04 21:48:11 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-03-04 21:48:11 -0600
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-04 21:48:11 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-03-04 21:48:11 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-04 21:48:11 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-04 21:48:11 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-03-04 21:48:11 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-04 21:48:11 -0600
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-03-04 21:49:08 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (19.8ms)
+  Rendered contestants/new.html.erb within layouts/fb_form (20.6ms)
+Completed 200 OK in 46ms (Views: 29.4ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-04 21:49:08 -0600
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-03-04 21:49:08 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-04 21:49:08 -0600
+Served asset /bootstrap.css - 304 Not Modified (26ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-04 21:49:08 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-03-04 21:49:08 -0600
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-04 21:49:08 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-03-04 21:49:08 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-04 21:49:08 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-04 21:49:08 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started POST "/contestants" for 127.0.0.1 at 2013-03-04 21:49:50 -0600
+Processing by ContestantsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uBPP4aZgrjavWR1OA5sWvdU4PUVg00JI0N8MqXgrCCo=", "contestant"=>{"first_name"=>"Carlos", "last_name"=>"Interone", "city"=>"sterling", "country"=>"United States", "state"=>"WI", "phone"=>"444-444-4444", "email"=>"carlos@mac.com", "email_confirmation"=>"carlos@mac.com", "gender"=>"Male", "age"=>"50 - 64", "newsletter"=>"1", "rules"=>"1"}, "recaptcha_challenge_field"=>"03AHJ_Vut-sCEOIzoc1s2GTrvGq25-xlhVleMvi58bFHP0cMy9i74pgMCOQPBwGHngHt7Moqe2XPtb62PJiXtAabAhZ1jioDGnHL2HNvNFEgnxN3GQc9h2BU3q3Gd7LHg52Pa_G68Gi8z3xHDrd7CsnlVYrnuO_1sKlYMHaX2tNiny4h26eYFkyis", "recaptcha_response_field"=>"and orklove", "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (1.9ms)[0m  [1mINSERT INTO "contestants" ("age", "city", "country", "created_at", "email", "first_name", "gender", "last_name", "newsletter", "phone", "rules", "state", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"[0m  [["age", "50 - 64"], ["city", "sterling"], ["country", "United States"], ["created_at", Tue, 05 Mar 2013 03:49:51 UTC +00:00], ["email", "carlos@mac.com"], ["first_name", "Carlos"], ["gender", "Male"], ["last_name", "Interone"], ["newsletter", true], ["phone", "444-444-4444"], ["rules", true], ["state", "WI"], ["updated_at", Tue, 05 Mar 2013 03:49:51 UTC +00:00]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  Rendered contestants/thankyou.html.erb within layouts/fb_form (0.7ms)
+Completed 200 OK in 213ms (Views: 9.3ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-04 21:49:51 -0600
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-03-04 21:49:51 -0600
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-03-04 21:49:51 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-04 21:49:51 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-04 21:49:51 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-04 21:49:51 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-04 21:49:51 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-03-04 21:49:51 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-04 21:49:51 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-03-04 21:49:55 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (48.6ms)
+  Rendered contestants/new.html.erb within layouts/fb_form (49.7ms)
+Completed 200 OK in 59ms (Views: 58.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-04 21:49:55 -0600
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-04 21:49:55 -0600
+Served asset /bootstrap.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-03-04 21:49:55 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-03-04 21:49:55 -0600
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-04 21:49:55 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-04 21:49:55 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-04 21:49:55 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-03-04 21:49:55 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-04 21:49:55 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/contestants" for 127.0.0.1 at 2013-03-04 21:50:28 -0600
+Processing by ContestantsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uBPP4aZgrjavWR1OA5sWvdU4PUVg00JI0N8MqXgrCCo=", "contestant"=>{"first_name"=>"Carlos", "last_name"=>"in", "city"=>"sterling", "country"=>"United States", "state"=>"WI", "phone"=>"555", "email"=>"carlos@mac.com", "email_confirmation"=>"carlos@mac.com", "gender"=>"Male", "age"=>"50 - 64", "newsletter"=>"1", "rules"=>"1"}, "recaptcha_challenge_field"=>"03AHJ_Vuu048RW1yXELuifCriQLAjTp1MiLd7wF1AZGoCFNZsRIPXeyzTeQlcoV7sgSFlzI1UwvGCHWRTiG7hc9CJOxb_6hbehQC24h5KYhdIlgXWqjPDLvFOi9roXM8pKiYHMKcP9P-jXO81wXO10GVllL-J_LZ6PF-zukN_iskS_2mqtWwG5ZRY", "recaptcha_response_field"=>"", "commit"=>"Submit"}
+  Rendered contestants/_form.html.erb (41.4ms)
+  Rendered contestants/new.html.erb within layouts/fb_form (42.4ms)
+Completed 200 OK in 172ms (Views: 51.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-03-04 21:50:28 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-03-04 21:50:28 -0600
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-04 21:50:28 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-04 21:50:28 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-04 21:50:28 -0600
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-04 21:50:28 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-04 21:50:28 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-03-04 21:50:28 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-04 21:50:28 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started POST "/contestants" for 127.0.0.1 at 2013-03-04 21:50:38 -0600
+Processing by ContestantsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uBPP4aZgrjavWR1OA5sWvdU4PUVg00JI0N8MqXgrCCo=", "contestant"=>{"first_name"=>"Carlos", "last_name"=>"in", "city"=>"sterling", "country"=>"United States", "state"=>"WI", "phone"=>"555", "email"=>"carlos@mac.com", "email_confirmation"=>"carlos@mac.com", "gender"=>"Male", "age"=>"50 - 64", "newsletter"=>"1", "rules"=>"1"}, "recaptcha_challenge_field"=>"03AHJ_VutF7Ru8kTyt3WqifoR6CXSrITogJIS2Aqi4-d73XFk23Yjg9HXp0aOteJBqP1_9uf3UwkdBgfcG6rey3231G2jvN9V4GMnF-SiF-WLdJ-u1OvBL2Rz8Z1vMrG20xGD9HaNIe0ZCR5BChsurZ5aHtMCqtYCUyXepc0sGL8xXttKdf4oX4qM", "recaptcha_response_field"=>"lemputf wagon", "commit"=>"Submit"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "contestants" ("age", "city", "country", "created_at", "email", "first_name", "gender", "last_name", "newsletter", "phone", "rules", "state", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"  [["age", "50 - 64"], ["city", "sterling"], ["country", "United States"], ["created_at", Tue, 05 Mar 2013 03:50:38 UTC +00:00], ["email", "carlos@mac.com"], ["first_name", "Carlos"], ["gender", "Male"], ["last_name", "in"], ["newsletter", true], ["phone", "555"], ["rules", true], ["state", "WI"], ["updated_at", Tue, 05 Mar 2013 03:50:38 UTC +00:00]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  Rendered contestants/thankyou.html.erb within layouts/fb_form (0.4ms)
+Completed 200 OK in 255ms (Views: 34.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-04 21:50:38 -0600
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-03-04 21:50:38 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-03-04 21:50:38 -0600
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-04 21:50:38 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-04 21:50:38 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-04 21:50:38 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-04 21:50:38 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-03-04 21:50:38 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-04 21:50:38 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/contestants/new" for 127.0.0.1 at 2013-03-04 21:50:41 -0600
+Processing by ContestantsController#new as HTML
+  Rendered contestants/_form.html.erb (24.1ms)
+  Rendered contestants/new.html.erb within layouts/fb_form (25.0ms)
+Completed 200 OK in 43ms (Views: 42.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-04 21:50:41 -0600
+Served asset /application.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/contestants.css?body=1" for 127.0.0.1 at 2013-03-04 21:50:41 -0600
+Served asset /contestants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-04 21:50:41 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-04 21:50:41 -0600
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-04 21:50:41 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-04 21:50:41 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-03-04 21:50:41 -0600
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contestants.js?body=1" for 127.0.0.1 at 2013-03-04 21:50:41 -0600
+Served asset /contestants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-04 21:50:41 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)

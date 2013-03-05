@@ -1,6 +1,6 @@
 class ContestantsController < ApplicationController
 
-  layout 'fb_form', only: :new
+  layout 'fb_form', :except => :index
   # GET /contestants
   # GET /contestants.json
   def index
@@ -57,7 +57,7 @@ class ContestantsController < ApplicationController
     respond_to do |format|
 
       if verify_recaptcha(:model => @contestant, :message => "Oh! It's error with reCAPTCHA!") && @contestant.save
-        format.html { redirect_to @contestant, notice: 'Contestant was successfully created.' }
+        format.html { render action: 'thankyou' }#@contestant, notice: 'Contestant was successfully created.' }
         format.json { render json: @contestant, status: :created, location: @contestant }
       else
         format.html { render action: "new" }
@@ -73,7 +73,7 @@ class ContestantsController < ApplicationController
 
     respond_to do |format|
       if @contestant.update_attributes(params[:contestant])
-        format.html { redirect_to @contestant, notice: 'Contestant was successfully updated.' }
+        format.html { render action: 'thankyou'}#redirect_to @contestant, notice: 'Contestant was successfully updated.' }
         format.json { head :no_content }
       else
         format.html { render action: "edit" }
