@@ -6,9 +6,10 @@ class ContestantsController < ApplicationController
   def index
     @contestants = Contestant.all
 
-    winner = rand(@contestants.first.id..@contestants.last.id)
-
-    @winner = Contestant.find(winner)
+    if @contestants.count > 2
+      winner = rand(@contestants.first.id..@contestants.last.id)
+      @winner = Contestant.find(winner)
+    end
 
     respond_to do |format|
       format.html # index.html.erb
