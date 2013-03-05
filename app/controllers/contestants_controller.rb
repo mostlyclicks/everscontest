@@ -8,8 +8,8 @@ class ContestantsController < ApplicationController
 
     if @contestants.count > 2
       first_id = @contestants.first.id.to_i
-      last_id = @contestants.last_id.to_i
-      winner = rand(first_id..last.id)
+      last_id = @contestants.last.id.to_i
+      winner = rand(first_id..last_id)
       @winner = Contestant.find(winner)
     end
 
